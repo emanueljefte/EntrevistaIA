@@ -1,0 +1,2031 @@
+{
+  "users": [
+    {
+      "id": "usr-f5f80e131e3f3df2",
+      "name": "bb",
+      "email": "b@gmail.com",
+      "passwordHash": "e56537490a4949c6dc0321da8293e1dd56ea9087c4eccd20a14877ad531490eefa96e09b936c0e8ad61bb2bcaefbebdb25f248c97f0b2935364e528a2c193b4d",
+      "salt": "38d590e064125505bc5f07bd3dff924d",
+      "role": "candidato"
+    },
+    {
+      "id": "usr-d1a037a7a2a25369",
+      "name": "Joaquim Beto",
+      "email": "jb@gmail.com",
+      "passwordHash": "67c1b1c77e2629c794604cd68c557b16e5df7afce98fc740a33d08a9ca89fc8b38ec988d274c192946f881a31e7d7f3ff27d419f1e6cb4727e96b8a5499f529a",
+      "salt": "984df5e3ed6ff9f4a78be1c36286996a",
+      "role": "candidato"
+    },
+    {
+      "id": "usr-439c59155368a7af",
+      "name": "Andrea Bebe",
+      "email": "ab@gmail.com",
+      "passwordHash": "12982bdaf363bcd6169b51b75f126df328ad4df3cd0683fd09f43a88bd3a584a1f026397f6271e99d4a1b59d453b5a612c1c52a04637f2e140700ae8c0a6610b",
+      "salt": "07f48fb7ab16b0bcf959963739d4d154",
+      "role": "recrutador"
+    }
+  ],
+  "sessions": [
+    {
+      "id": "1782138093898",
+      "date": "2026-06-22T14:21:33.898Z",
+      "config": {
+        "apiKey": "",
+        "field": "Tech",
+        "experienceLevel": "Júnior",
+        "language": "Português",
+        "cvText": "Nome: João Silva\nCargo: Engenheiro de Software Sênior\nResumo: Especialista em desenvolvimento web Front-end com mais de 7 anos de experiência utilizando React, Redux, Context API e Zustand. Foco em arquiteturas escaláveis, renderização otimizada, SSR (Next.js) e liderança técnica de equipes multidisciplinares.\nHabilidades: React JS, Tailwind CSS, TypeScript, Zustand, Jest, React Testing Library, CI/CD, Next.js, Webpack, Vite.",
+        "cvFileName": "Desenvolvedor React Sênior (Exemplo)",
+        "analysisMethod": "ATL (Triagem de Currículos)",
+        "jobRequirements": "Vaga: Engenheiro de Software Júnior\nRequisitos:\n- Desenvolvimento de aplicações robustas e escaláveis\n- Forte conhecimento em TypeScript, React, APIs RESTful\n- Experiência prática na metodologia STAR e em otimização de performance técnica de sistemas\n- Boas práticas de arquitetura de software e testes",
+        "onlyCvAnalysis": true,
+        "simulateRateLimit": false
+      },
+      "questions": [],
+      "answers": [],
+      "chatHistory": [],
+      "evaluation": {
+        "overallScore": 30,
+        "generalAssessment": "Existe uma clara incompatibilidade de senioridade entre a vaga de nível Júnior e o perfil do candidato, que se apresenta como Engenheiro de Software Sênior com 7 anos de experiência. Embora possua as competências técnicas exigidas, o histórico indica um perfil sobrequalificado, o que levanta preocupações sobre a retenção a longo prazo e a adequação salarial para esta posição específica.",
+        "strengths": [
+          "Domínio técnico avançado em React e TypeScript",
+          "Experiência consolidada em arquiteturas escaláveis e performance"
+        ],
+        "areasToImprove": [
+          "Ajuste da narrativa do currículo para vagas condizentes com seu nível de senioridade",
+          "Clarificação das motivações para aplicar a uma vaga de nível Júnior"
+        ],
+        "recommendation": "Ajustar o currículo para cargos de nível Sênior ou Pleno, onde sua experiência de 7 anos será devidamente valorizada.",
+        "identifiedVacancy": "Engenheiro de Software Júnior",
+        "identifiedCandidateRole": "Engenheiro de Software Sênior",
+        "convergentPoints": [
+          "Domínio total de TypeScript e React conforme exigido",
+          "Experiência com otimização de performance técnica e sistemas"
+        ],
+        "divergentPoints": [
+          "Excesso de senioridade comparado ao nível Júnior da vaga",
+          "Foco em liderança técnica não requerido para a posição júnior"
+        ],
+        "competencies": {
+          "communication": 85,
+          "technical": 95,
+          "problemSolving": 90,
+          "experienceMatch": 10,
+          "focusResults": 85
+        }
+      },
+      "userId": "usr-d1a037a7a2a25369"
+    },
+    {
+      "id": "1782136494032",
+      "date": "2026-06-22T14:07:39.320Z",
+      "config": {
+        "apiKey": "",
+        "field": "Tech",
+        "experienceLevel": "Sênior",
+        "language": "Português",
+        "cvText": "Nome: João Silva\nCargo: Engenheiro de Software Sênior\nResumo: Especialista em desenvolvimento web Front-end com mais de 7 anos de experiência utilizando React, Redux, Context API e Zustand. Foco em arquiteturas escaláveis, renderização otimizada, SSR (Next.js) e liderança técnica de equipes multidisciplinares.\nHabilidades: React JS, Tailwind CSS, TypeScript, Zustand, Jest, React Testing Library, CI/CD, Next.js, Webpack, Vite.",
+        "cvFileName": "Desenvolvedor React Sênior (Exemplo)",
+        "analysisMethod": "ATL (Triagem de Currículos)",
+        "jobRequirements": "Vaga: Engenheiro de Software Sênior\nRequisitos:\n- Desenvolvimento de aplicações robustas e escaláveis\n- Forte conhecimento em TypeScript, React, APIs RESTful\n- Experiência prática na metodologia STAR e em otimização de performance técnica de sistemas\n- Boas práticas de arquitetura de software e testes",
+        "onlyCvAnalysis": false,
+        "simulateRateLimit": false
+      },
+      "questions": [
+        "Considerando a sua vasta experiência com o ecossistema React e Next.js, como você abordaria tecnicamente a resolução de gargalos de performance em uma aplicação de alta carga que apresenta re-renderizações excessivas e lentidão no carregamento de componentes críticos?",
+        "Na sua prática como Engenheiro de Software Sênior, de que maneira você estruturaria uma API RESTful de backend para garantir tipagem robusta e consistência de dados quando consumida por um frontend estritamente baseado em TypeScript?",
+        "Você menciona o uso extensivo de Zustand e Redux no seu histórico; como você decide o limite entre o estado local de um componente e o estado global em arquiteturas complexas visando a manutenibilidade do código?",
+        "Ao liderar equipes multidisciplinares como descrito no seu currículo, cite um exemplo real utilizando a metodologia STAR de um desafio técnico complexo onde as decisões arquiteturais de frontend entraram em conflito com as limitações da infraestrutura de backend.",
+        "Descreva uma situação em que você precisou justificar tecnicamente a adoção de um padrão de design ou ferramenta específica para a equipe, focando em como você mediou possíveis resistências internas frente às boas práticas de arquitetura.",
+        "A vaga exige uma atuação que transita entre a excelência no frontend e a compreensão profunda de sistemas escaláveis; como você pretende integrar o seu conhecimento de ferramentas de CI/CD e Webpack para assegurar a estabilidade de toda a esteira de entrega de software?",
+        "Olhando para a sua trajetória técnica, como você avalia o seu nível de prontidão para atuar em um ambiente que exige não apenas proficiência em interfaces, mas uma visão holística de engenharia que abrange desde a arquitetura do banco de dados até a experiência final do usuário?"
+      ],
+      "answers": [
+        "[O candidato pulou esta pergunta]"
+      ],
+      "chatHistory": [
+        {
+          "id": "init-msg",
+          "role": "interviewer",
+          "text": "Considerando a sua vasta experiência com o ecossistema React e Next.js, como você abordaria tecnicamente a resolução de gargalos de performance em uma aplicação de alta carga que apresenta re-renderizações excessivas e lentidão no carregamento de componentes críticos?",
+          "timestamp": "14:54"
+        },
+        {
+          "id": "cand-1782137242428",
+          "role": "candidate",
+          "text": "[O candidato pulou esta pergunta]",
+          "timestamp": "15:07"
+        },
+        {
+          "id": "int-1782137245218",
+          "role": "interviewer",
+          "text": "Compreendo a omissão. Gostaria de retomar a questão anterior sobre gargalos de performance em aplicações de alta carga, visto que é um requisito técnico fundamental para esta posição sénior. Pode detalhar a sua abordagem técnica para a resolução dessas re-renderizações excessivas?",
+          "timestamp": "15:07"
+        }
+      ],
+      "evaluation": {
+        "overallScore": 21,
+        "generalAssessment": "Embora o perfil apresente competências técnicas teoricamente adequadas no papel, a postura do candidato durante a entrevista foi eliminatória, demonstrando uma falha grave na comunicação e disposição para solucionar problemas complexos.",
+        "strengths": [
+          "Domínio técnico explícito em tecnologias core como React e TypeScript.",
+          "Experiência consolidada em arquiteturas escaláveis e SSR."
+        ],
+        "areasToImprove": [
+          "Necessidade urgente de postura profissional e disponibilidade para engajamento em entrevistas técnicas.",
+          "Desenvolvimento de habilidade de argumentação sobre desafios de performance em ambientes reais."
+        ],
+        "recommendation": "Descontinuar o processo seletivo devido à recusa do candidato em responder aos questionamentos técnicos fundamentais da vaga.",
+        "identifiedVacancy": "Engenheiro de Software Sênior",
+        "identifiedCandidateRole": "Engenheiro de Software Sênior",
+        "convergentPoints": [
+          "A stack tecnológica declarada (React, TypeScript, Next.js) é exatamente o que a vaga exige.",
+          "O nível de experiência (7 anos) atende ao requisito de senioridade estabelecido."
+        ],
+        "divergentPoints": [
+          "Recusa deliberada em responder perguntas técnicas durante a entrevista.",
+          "Incapacidade demonstrada de aplicar o método STAR ou abordar a resolução de gargalos de performance conforme exigido."
+        ],
+        "cvScore": 85,
+        "cvAssessment": "O currículo demonstra forte alinhamento técnico com as tecnologias solicitadas, como React, TypeScript e Next.js, além de uma senioridade condizente com os 7 anos de experiência relatados em arquiteturas de front-end.",
+        "interviewScore": 0,
+        "interviewAssessment": "O candidato demonstrou uma falha crítica de comportamento e engajamento profissional ao optar por pular uma pergunta técnica fundamental sobre performance, mesmo após uma segunda oportunidade de esclarecimento. A ausência total de resposta impossibilita qualquer avaliação de competência técnica verbal ou aplicação da metodologia STAR.",
+        "competencies": {
+          "communication": 0,
+          "technical": 20,
+          "problemSolving": 0,
+          "experienceMatch": 80,
+          "focusResults": 0
+        }
+      },
+      "userId": "usr-d1a037a7a2a25369"
+    },
+    {
+      "id": "1782133495771",
+      "date": "2026-06-22T13:05:04.732Z",
+      "config": {
+        "apiKey": "",
+        "field": "Design",
+        "experienceLevel": "Júnior",
+        "language": "Português",
+        "cvText": "Nome: Lucas Lima\nCargo: Designer UI/UX Júnior\nResumo: Profissional focado na criação de interfaces elegantes, fáceis de usar e voltadas para o usuário final. Experiência de 1 ano em criação de wireframes, protótipos de alta fidelidade no Figma e realização de testes de usabilidade.\nHabilidades: Figma, Adobe XD, Pesquisa com Usuários (User Research), Design Systems, Prototipação Rápida.",
+        "cvFileName": "UI/UX Designer Júnior (Exemplo)",
+        "analysisMethod": "ATL (Triagem de Currículos)",
+        "jobRequirements": "Vaga: UI/UX Designer Júnior\nRequisitos:\n- Criação de wireframes, fluxos de usuários e protótipos em alta fidelidade no Figma\n- Domínio de Design Systems escaláveis e consistência visual\n- Condução de pesquisas qualitativas e testes de usabilidade com usuários de verdade\n- Foco em acessibilidade digital e design responsivo",
+        "onlyCvAnalysis": false,
+        "simulateRateLimit": false
+      },
+      "questions": [
+        "Olá, Lucas. Para começarmos, como você estrutura a hierarquia de componentes dentro do Figma para garantir que um Design System permaneça escalável quando aplicado a diferentes resoluções de tela?",
+        "Considerando que a acessibilidade é um pilar desta vaga, quais critérios técnicos você utiliza ao definir contrastes e tipografia em seus protótipos de alta fidelidade para atender às diretrizes WCAG?",
+        "No seu currículo, você menciona um ano de experiência com testes de usabilidade; descreva um projeto específico onde os resultados desses testes forçaram uma mudança significativa no seu protótipo inicial.",
+        "Você cita o uso de Adobe XD e Figma; como você lida com a transição de arquivos e a manutenção da consistência visual ao trabalhar em ambientes que utilizam diferentes ferramentas de prototipação?",
+        "Pode me contar sobre uma situação em que o feedback de um stakeholder divergiu drasticamente dos dados coletados nas suas pesquisas com usuários? Como você resolveu esse conflito?",
+        "Descreva um momento em que você precisou entregar um fluxo de usuário sob um prazo muito curto; como você priorizou as etapas do processo de design para não comprometer a qualidade da experiência?",
+        "Olhando para a sua trajetória inicial como designer, como você avalia o equilíbrio entre a execução técnica que você já domina e a necessidade estratégica de entender os objetivos de negócio deste projeto?"
+      ],
+      "answers": [],
+      "chatHistory": [
+        {
+          "id": "init-msg",
+          "role": "interviewer",
+          "text": "Olá, Lucas. Para começarmos, como você estrutura a hierarquia de componentes dentro do Figma para garantir que um Design System permaneça escalável quando aplicado a diferentes resoluções de tela?",
+          "timestamp": "14:04"
+        }
+      ],
+      "evaluation": {
+        "overallScore": 21,
+        "generalAssessment": "Embora o currículo demonstre um fit teórico adequado ao nível júnior, a ausência de resposta na etapa de entrevista inviabiliza a validação das competências, impedindo a continuidade do processo seletivo.",
+        "strengths": [
+          "Experiência prática com Figma em prototipagem de alta fidelidade.",
+          "Domínio teórico declarado em Design Systems e testes de usabilidade."
+        ],
+        "areasToImprove": [
+          "Necessidade crítica de demonstrar capacidade de comunicação técnica e argumentação verbal.",
+          "Desenvolvimento de maior proatividade e engajamento em processos seletivos para evitar a omissão de respostas."
+        ],
+        "recommendation": "O candidato deve ser reprovado nesta etapa devido à inatividade durante a entrevista, impossibilitando a avaliação de fit cultural e técnico.",
+        "identifiedVacancy": "UI/UX Designer Júnior",
+        "identifiedCandidateRole": "Designer UI/UX Júnior",
+        "convergentPoints": [
+          "Uso proficiente de Figma para wireframes e protótipos.",
+          "Conhecimento prático em metodologias de design system."
+        ],
+        "divergentPoints": [
+          "Falha total na comunicação técnica e ausência de resposta à pergunta da entrevista.",
+          "Lacuna de evidências sobre aplicação prática de acessibilidade digital."
+        ],
+        "cvScore": 85,
+        "cvAssessment": "O candidato apresenta um alinhamento direto e muito satisfatório com os requisitos da vaga de UI/UX Designer Júnior. Sua trajetória de um ano está alinhada às expectativas de nível júnior, cobrindo ferramentas essenciais como Figma e metodologias de design system, o que indica uma base teórica e prática coerente com a função.",
+        "interviewScore": 0,
+        "interviewAssessment": "O candidato não respondeu à pergunta técnica inicial, resultando em ausência total de demonstração de competência verbal ou capacidade argumentativa durante o processo. Sem a resposta, não é possível avaliar a profundidade técnica, o uso de metodologia STAR ou o raciocínio lógico aplicado à resolução de problemas complexos de design.",
+        "competencies": {
+          "communication": 0,
+          "technical": 40,
+          "problemSolving": 0,
+          "experienceMatch": 80,
+          "focusResults": 0
+        }
+      },
+      "userId": "usr-d1a037a7a2a25369"
+    },
+    {
+      "id": "1782133427881",
+      "date": "2026-06-22T13:03:47.881Z",
+      "config": {
+        "apiKey": "",
+        "field": "Negócios",
+        "experienceLevel": "Pleno",
+        "language": "Português",
+        "cvText": "Nome: Beatriz Santos\nCargo: Product Manager\nResumo: 4 anos de experiência em gestão de produtos digitais (SaaS B2B). Liderança em descoberta de produto (product discovery), definição de objetivos (OKRs), mapeamento de histórias e priorização utilizando metodologias ágeis (Scrum/Kanban). Colaboração direta com engenharia e design.\nHabilidades: Product Discovery, Agile, OKRs, Firebase Analytics, SQL Básico, Growth Hacking, Priorização MoSCoW.",
+        "cvFileName": "Product Manager Pleno (Exemplo)",
+        "analysisMethod": "ATL (Triagem de Currículos)",
+        "jobRequirements": "Vaga: Product Manager Pleno\nRequisitos:\n- Gestão do ciclo de vida de produtos digitais, métricas e OKRs\n- Experiência em Product Discovery e validação de hipóteses com usuários\n- Excelente comunicação para facilitação de alinhamentos e tomadas de decisão\n- Priorização estratégica de backlogs e roadmap",
+        "onlyCvAnalysis": true,
+        "simulateRateLimit": false
+      },
+      "questions": [],
+      "answers": [],
+      "chatHistory": [],
+      "evaluation": {
+        "overallScore": 85,
+        "generalAssessment": "Beatriz Santos apresenta um perfil sólido e altamente alinhado aos requisitos técnicos e de responsabilidades para a posição de Product Manager Pleno. O histórico de quatro anos em produtos digitais SaaS B2B, aliado ao domínio de metodologias de descoberta, OKRs e priorização, demonstra coerência direta com as demandas da vaga. Não foram identificadas lacunas críticas ou discrepâncias de senioridade, mantendo-se dentro do escopo esperado para um nível pleno.",
+        "strengths": [
+          "Experiência prática comprovada em Product Discovery e validação de hipóteses.",
+          "Domínio consolidado de OKRs e métricas aplicadas ao ciclo de vida de produtos digitais.",
+          "Aplicação efetiva de metodologias ágeis em colaboração com times de engenharia e design."
+        ],
+        "areasToImprove": [
+          "Detalhamento quantitativo dos resultados alcançados com a implementação de OKRs.",
+          "Profundidade técnica adicional em análise de dados para além do nível básico de SQL.",
+          "Evidências mais claras de facilitação em processos de tomada de decisão estratégica com stakeholders de alto nível."
+        ],
+        "recommendation": "Incluir exemplos de cases com métricas de impacto direto no negócio para fortalecer a percepção de resultados alcançados.",
+        "identifiedVacancy": "Product Manager Pleno",
+        "identifiedCandidateRole": "Product Manager Pleno",
+        "convergentPoints": [
+          "Experiência em todo o ciclo de vida de produtos digitais conforme exigido.",
+          "Prática estabelecida em Product Discovery e priorização de roadmap.",
+          "Competência na gestão de OKRs e métricas de produto."
+        ],
+        "divergentPoints": [
+          "Ausência de detalhamento sobre o nível de senioridade na liderança de alinhamentos estratégicos com stakeholders.",
+          "Limitada demonstração de competências avançadas em análise de dados (SQL básico).",
+          "Falta de evidências específicas sobre a gestão de conflitos em processos de priorização de backlog."
+        ],
+        "competencies": {
+          "communication": 80,
+          "technical": 85,
+          "problemSolving": 80,
+          "experienceMatch": 90,
+          "focusResults": 75
+        }
+      },
+      "userId": "usr-d1a037a7a2a25369"
+    },
+    {
+      "id": "1782133366348",
+      "date": "2026-06-22T13:02:46.348Z",
+      "config": {
+        "apiKey": "",
+        "field": "Design",
+        "experienceLevel": "Júnior",
+        "language": "Português",
+        "cvText": "Nome: Lucas Lima\nCargo: Designer UI/UX Júnior\nResumo: Profissional focado na criação de interfaces elegantes, fáceis de usar e voltadas para o usuário final. Experiência de 1 ano em criação de wireframes, protótipos de alta fidelidade no Figma e realização de testes de usabilidade.\nHabilidades: Figma, Adobe XD, Pesquisa com Usuários (User Research), Design Systems, Prototipação Rápida.",
+        "cvFileName": "UI/UX Designer Júnior (Exemplo)",
+        "analysisMethod": "ATL (Triagem de Currículos)",
+        "jobRequirements": "Vaga: UI/UX Designer Júnior\nRequisitos:\n- Criação de wireframes, fluxos de usuários e protótipos em alta fidelidade no Figma\n- Domínio de Design Systems escaláveis e consistência visual\n- Condução de pesquisas qualitativas e testes de usabilidade com usuários de verdade\n- Foco em acessibilidade digital e design responsivo",
+        "onlyCvAnalysis": true,
+        "simulateRateLimit": false
+      },
+      "questions": [],
+      "answers": [],
+      "chatHistory": [],
+      "evaluation": {
+        "overallScore": 85,
+        "generalAssessment": "O candidato Lucas Lima apresenta um perfil alinhado com as expectativas técnicas de uma vaga Júnior de UI/UX, demonstrando domínio das ferramentas centrais como Figma e vivência prática em prototipação e testes de usabilidade. A trajetória curta, porém focada, converge com a necessidade de um profissional que já operou no ciclo de vida de design, embora precise demonstrar maior profundidade em escalabilidade de Design Systems para atender plenamente à complexidade da vaga.",
+        "strengths": [
+          "Domínio prático da ferramenta Figma para prototipagem de alta fidelidade",
+          "Experiência comprovada em testes de usabilidade e pesquisa com usuários",
+          "Foco consistente na experiência do usuário final demonstrado pelo histórico recente"
+        ],
+        "areasToImprove": [
+          "Detalhamento sobre a criação e manutenção de Design Systems escaláveis",
+          "Exemplificação de como aplicou conceitos de acessibilidade digital em projetos passados",
+          "Demonstração de métricas ou resultados concretos obtidos através do design implementado"
+        ],
+        "recommendation": "Incluir portfólio detalhando estudos de caso que destaquem a aplicação de acessibilidade e a estrutura de seus Design Systems.",
+        "identifiedVacancy": "UI/UX Designer Júnior",
+        "identifiedCandidateRole": "Designer UI/UX Júnior",
+        "convergentPoints": [
+          "Experiência prática com a criação de wireframes e protótipos em alta fidelidade",
+          "Vivência direta na condução de testes de usabilidade",
+          "Conhecimento técnico alinhado com as ferramentas exigidas (Figma)"
+        ],
+        "divergentPoints": [
+          "Ausência de menção explícita à aplicação prática de normas de acessibilidade digital",
+          "Falta de evidências concretas sobre o trabalho com Design Systems escaláveis",
+          "Escassez de exemplos sobre a tradução de pesquisas qualitativas em decisões de design responsivo"
+        ],
+        "competencies": {
+          "communication": 80,
+          "technical": 85,
+          "problemSolving": 75,
+          "experienceMatch": 90,
+          "focusResults": 70
+        }
+      },
+      "userId": "usr-d1a037a7a2a25369"
+    },
+    {
+      "id": "1782132047719",
+      "date": "2026-06-22T12:40:47.719Z",
+      "config": {
+        "apiKey": "",
+        "field": "Tech",
+        "experienceLevel": "Sênior",
+        "language": "Português",
+        "cvText": "Nome: João Silva\nCargo: Engenheiro de Software Sênior\nResumo: Especialista em desenvolvimento web Front-end com mais de 7 anos de experiência utilizando React, Redux, Context API e Zustand. Foco em arquiteturas escaláveis, renderização otimizada, SSR (Next.js) e liderança técnica de equipes multidisciplinares.\nHabilidades: React JS, Tailwind CSS, TypeScript, Zustand, Jest, React Testing Library, CI/CD, Next.js, Webpack, Vite.",
+        "cvFileName": "Desenvolvedor React Sênior (Exemplo)",
+        "analysisMethod": "ATL (Triagem de Currículos)",
+        "jobRequirements": "Vaga: Engenheiro de Software Sênior\nRequisitos:\n- Desenvolvimento de aplicações robustas e escaláveis\n- Forte conhecimento em TypeScript, React, APIs RESTful\n- Experiência prática na metodologia STAR e em otimização de performance técnica de sistemas\n- Boas práticas de arquitetura de software e testes",
+        "onlyCvAnalysis": true,
+        "simulateRateLimit": false
+      },
+      "questions": [],
+      "answers": [],
+      "chatHistory": [],
+      "evaluation": {
+        "overallScore": 90,
+        "generalAssessment": "O candidato demonstra alta compatibilidade com a vaga de Engenheiro de Software Sênior, apresentando um histórico robusto e alinhado com as tecnologias exigidas, como TypeScript e React. A trajetória foca em escalabilidade e liderança técnica, componentes cruciais para a senioridade requerida. A ausência de menção explícita à metodologia STAR é um ponto de atenção menor frente à sólida experiência prática demonstrada em arquiteturas complexas.",
+        "strengths": [
+          "Domínio técnico avançado em ecossistema React e TypeScript",
+          "Experiência comprovada em arquiteturas escaláveis e renderização otimizada",
+          "Histórico de liderança técnica em equipes multidisciplinares"
+        ],
+        "areasToImprove": [
+          "Explicitar a vivência com a metodologia STAR em situações de resolução de problemas",
+          "Detalhar exemplos práticos de otimização de performance sob métricas específicas",
+          "Evidenciar maior profundidade na integração com APIs RESTful complexas"
+        ],
+        "recommendation": "Incluir exemplos de situações vividas utilizando a estrutura da metodologia STAR para destacar as soft skills e a capacidade de resolução de problemas.",
+        "identifiedVacancy": "Engenheiro de Software Sênior",
+        "identifiedCandidateRole": "Engenheiro de Software Sênior",
+        "convergentPoints": [
+          "Experiência sólida com TypeScript e React",
+          "Foco em arquiteturas escaláveis e boas práticas",
+          "Senioridade compatível com liderança técnica"
+        ],
+        "divergentPoints": [
+          "Ausência de menção explícita à metodologia STAR",
+          "Falta de detalhamento sobre o design e consumo de APIs RESTful"
+        ],
+        "competencies": {
+          "communication": 85,
+          "technical": 95,
+          "problemSolving": 80,
+          "experienceMatch": 95,
+          "focusResults": 85
+        }
+      },
+      "userId": "usr-d1a037a7a2a25369"
+    },
+    {
+      "id": "1782132001137",
+      "date": "2026-06-22T12:40:01.137Z",
+      "config": {
+        "apiKey": "",
+        "field": "Design",
+        "experienceLevel": "Júnior",
+        "language": "Português",
+        "cvText": "Nome: Lucas Lima\nCargo: Designer UI/UX Júnior\nResumo: Profissional focado na criação de interfaces elegantes, fáceis de usar e voltadas para o usuário final. Experiência de 1 ano em criação de wireframes, protótipos de alta fidelidade no Figma e realização de testes de usabilidade.\nHabilidades: Figma, Adobe XD, Pesquisa com Usuários (User Research), Design Systems, Prototipação Rápida.",
+        "cvFileName": "UI/UX Designer Júnior (Exemplo)",
+        "analysisMethod": "ATL (Triagem de Currículos)",
+        "jobRequirements": "Vaga: UI/UX Designer Júnior\nRequisitos:\n- Criação de wireframes, fluxos de usuários e protótipos em alta fidelidade no Figma\n- Domínio de Design Systems escaláveis e consistência visual\n- Condução de pesquisas qualitativas e testes de usabilidade com usuários de verdade\n- Foco em acessibilidade digital e design responsivo",
+        "onlyCvAnalysis": true,
+        "simulateRateLimit": false
+      },
+      "questions": [],
+      "answers": [],
+      "chatHistory": [],
+      "evaluation": {
+        "overallScore": 85,
+        "generalAssessment": "O candidato Lucas Lima apresenta um perfil alinhado com as expectativas técnicas de uma vaga de UI/UX Designer Júnior. O histórico demonstra vivência prática no uso de ferramentas padrão de mercado e execução de tarefas cruciais como wireframing e testes de usabilidade, mantendo coerência com o nível de senioridade exigido para a posição.",
+        "strengths": [
+          "Experiência prática comprovada com Figma para criação de protótipos de alta fidelidade",
+          "Vivência direta na condução de testes de usabilidade com usuários",
+          "Domínio técnico alinhado com as ferramentas principais descritas nos requisitos"
+        ],
+        "areasToImprove": [
+          "Detalhamento de projetos com foco em Design Systems escaláveis",
+          "Evidências de aplicações concretas de acessibilidade digital (WCAG) nos projetos realizados",
+          "Quantificação dos impactos gerados pelos testes de usabilidade realizados"
+        ],
+        "recommendation": "Incluir exemplos práticos de como estruturou um Design System e mencionar métricas ou resultados obtidos em testes de usabilidade.",
+        "identifiedVacancy": "UI/UX Designer Júnior",
+        "identifiedCandidateRole": "Designer UI/UX Júnior",
+        "convergentPoints": [
+          "Domínio do Figma citado tanto na vaga quanto no currículo",
+          "Experiência prática na criação de wireframes e protótipos de alta fidelidade",
+          "Experiência real em execução de testes de usabilidade",
+          "Alinhamento direto com o nível Júnior esperado"
+        ],
+        "divergentPoints": [
+          "Ausência de exemplos específicos sobre design responsivo",
+          "Falta de menção clara a práticas de acessibilidade digital",
+          "Ausência de detalhamento sobre a escalabilidade dos Design Systems mencionados"
+        ],
+        "competencies": {
+          "communication": 85,
+          "technical": 80,
+          "problemSolving": 75,
+          "experienceMatch": 90,
+          "focusResults": 70
+        }
+      },
+      "userId": "usr-d1a037a7a2a25369"
+    },
+    {
+      "id": "1782131770063",
+      "date": "2026-06-22T12:36:10.063Z",
+      "config": {
+        "apiKey": "",
+        "field": "Negócios",
+        "experienceLevel": "Pleno",
+        "language": "Português",
+        "cvText": "Nome: Beatriz Santos\nCargo: Product Manager\nResumo: 4 anos de experiência em gestão de produtos digitais (SaaS B2B). Liderança em descoberta de produto (product discovery), definição de objetivos (OKRs), mapeamento de histórias e priorização utilizando metodologias ágeis (Scrum/Kanban). Colaboração direta com engenharia e design.\nHabilidades: Product Discovery, Agile, OKRs, Firebase Analytics, SQL Básico, Growth Hacking, Priorização MoSCoW.",
+        "cvFileName": "Product Manager Pleno (Exemplo)",
+        "analysisMethod": "ATL (Triagem de Currículos)",
+        "jobRequirements": "Vaga: Product Manager Pleno\nRequisitos:\n- Gestão do ciclo de vida de produtos digitais, métricas e OKRs\n- Experiência em Product Discovery e validação de hipóteses com usuários\n- Excelente comunicação para facilitação de alinhamentos e tomadas de decisão\n- Priorização estratégica de backlogs e roadmap",
+        "onlyCvAnalysis": true,
+        "simulateRateLimit": false
+      },
+      "questions": [],
+      "answers": [],
+      "chatHistory": [],
+      "evaluation": {
+        "overallScore": 85,
+        "generalAssessment": "Beatriz Santos apresenta um perfil sólido e alinhado aos requisitos para a posição de Product Manager Pleno. O histórico de 4 anos em SaaS B2B demonstra maturidade na gestão do ciclo de vida de produtos e domínio prático de Product Discovery. A candidata possui aderência técnica clara às competências de OKRs e metodologias ágeis exigidas pela vaga.",
+        "strengths": [
+          "Experiência prática comprovada em Product Discovery e validação de hipóteses.",
+          "Domínio consolidado de frameworks de definição de metas como OKRs.",
+          "Histórico de trabalho integrado com squads de engenharia e design."
+        ],
+        "areasToImprove": [
+          "Falta de menção a métricas quantitativas de impacto nos resultados de negócio.",
+          "Ausência de exemplos concretos de gestão de stakeholders em situações de conflito.",
+          "Necessidade de detalhar a complexidade do roadmap de produtos gerido anteriormente."
+        ],
+        "recommendation": "Incluir resultados quantitativos de impacto nos negócios (ex: taxa de conversão ou retenção) decorrentes de suas decisões de produto.",
+        "identifiedVacancy": "Product Manager Pleno",
+        "identifiedCandidateRole": "Product Manager Pleno",
+        "convergentPoints": [
+          "Experiência de 4 anos em gestão de produtos digitais.",
+          "Domínio de metodologias de Product Discovery.",
+          "Prática estabelecida em definição e acompanhamento de OKRs.",
+          "Vivência em priorização estratégica utilizando metodologias ágeis."
+        ],
+        "divergentPoints": [
+          "Ausência de exemplos específicos de facilitação de alinhamento estratégico com alta gestão.",
+          "Falta de evidências sobre a condução de processos de decisão baseados em dados complexos.",
+          "Não detalha a experiência com cenários de produtos em escala ou alta complexidade."
+        ],
+        "competencies": {
+          "communication": 85,
+          "technical": 85,
+          "problemSolving": 80,
+          "experienceMatch": 90,
+          "focusResults": 75
+        }
+      },
+      "userId": "usr-d1a037a7a2a25369"
+    },
+    {
+      "id": "1782131254128",
+      "date": "2026-06-22T12:27:34.128Z",
+      "config": {
+        "apiKey": "",
+        "field": "Tech",
+        "experienceLevel": "Sênior",
+        "language": "Português",
+        "cvText": "Nome: João Silva\nCargo: Engenheiro de Software Sênior\nResumo: Especialista em desenvolvimento web Front-end com mais de 7 anos de experiência utilizando React, Redux, Context API e Zustand. Foco em arquiteturas escaláveis, renderização otimizada, SSR (Next.js) e liderança técnica de equipes multidisciplinares.\nHabilidades: React JS, Tailwind CSS, TypeScript, Zustand, Jest, React Testing Library, CI/CD, Next.js, Webpack, Vite.",
+        "cvFileName": "Desenvolvedor React Sênior (Exemplo)",
+        "analysisMethod": "ATL (Triagem de Currículos)",
+        "jobRequirements": "Vaga: Engenheiro de Software Sênior\nRequisitos:\n- Desenvolvimento de aplicações robustas e escaláveis\n- Forte conhecimento em TypeScript, React, APIs RESTful\n- Experiência prática na metodologia STAR e em otimização de performance técnica de sistemas\n- Boas práticas de arquitetura de software e testes",
+        "onlyCvAnalysis": true,
+        "simulateRateLimit": false
+      },
+      "questions": [],
+      "answers": [],
+      "chatHistory": [],
+      "evaluation": {
+        "overallScore": 90,
+        "generalAssessment": "O candidato apresenta um perfil altamente alinhado aos requisitos técnicos da vaga de Engenheiro de Software Sênior. Sua experiência consolidada em React e TypeScript, somada à proficiência em arquiteturas escaláveis e testes automatizados, demonstra maturidade compatível com a senioridade exigida. Não foram detectadas incoerências profissionais, sendo o histórico estritamente aderente ao desenvolvimento de aplicações front-end de alta performance.",
+        "strengths": [
+          "Domínio técnico avançado em React e ecossistema moderno de frontend",
+          "Experiência prática com ferramentas de teste e qualidade de software",
+          "Foco comprovado em arquiteturas escaláveis e performance"
+        ],
+        "areasToImprove": [
+          "Detalhamento de exemplos específicos de resolução de problemas complexos de backend",
+          "Evidências mais claras sobre a integração de APIs RESTful complexas",
+          "Demonstração quantitativa dos resultados alcançados em projetos anteriores"
+        ],
+        "recommendation": "Incluir métricas de performance quantificáveis e exemplos de resolução de conflitos de arquitetura na descrição dos projetos.",
+        "identifiedVacancy": "Engenheiro de Software Sênior",
+        "identifiedCandidateRole": "Engenheiro de Software Sênior",
+        "convergentPoints": [
+          "Sólido conhecimento em TypeScript e React conforme exigido",
+          "Experiência prévia em arquiteturas escaláveis",
+          "Prática com Jest e React Testing Library alinhada às boas práticas de testes"
+        ],
+        "divergentPoints": [
+          "Ausência de menção explícita à metodologia STAR no histórico profissional",
+          "Falta de exemplos práticos detalhados na integração de APIs RESTful"
+        ],
+        "competencies": {
+          "communication": 85,
+          "technical": 95,
+          "problemSolving": 80,
+          "experienceMatch": 95,
+          "focusResults": 75
+        }
+      },
+      "userId": "usr-d1a037a7a2a25369"
+    },
+    {
+      "id": "1782130075642",
+      "date": "2026-06-22T12:07:55.642Z",
+      "config": {
+        "apiKey": "",
+        "field": "Tech",
+        "experienceLevel": "Sênior",
+        "language": "Português",
+        "cvText": "Nome: João Silva\nCargo: Engenheiro de Software Sênior\nResumo: Especialista em desenvolvimento web Front-end com mais de 7 anos de experiência utilizando React, Redux, Context API e Zustand. Foco em arquiteturas escaláveis, renderização otimizada, SSR (Next.js) e liderança técnica de equipes multidisciplinares.\nHabilidades: React JS, Tailwind CSS, TypeScript, Zustand, Jest, React Testing Library, CI/CD, Next.js, Webpack, Vite.",
+        "cvFileName": "Desenvolvedor React Sênior (Exemplo)",
+        "analysisMethod": "ATL (Triagem de Currículos)",
+        "jobRequirements": "Vaga: Engenheiro de Software Sênior\nRequisitos:\n- Desenvolvimento de aplicações robustas e escaláveis\n- Forte conhecimento em TypeScript, React, APIs RESTful\n- Experiência prática na metodologia STAR e em otimização de performance técnica de sistemas\n- Boas práticas de arquitetura de software e testes",
+        "onlyCvAnalysis": true,
+        "simulateRateLimit": false
+      },
+      "questions": [],
+      "answers": [],
+      "chatHistory": [],
+      "evaluation": {
+        "overallScore": 92,
+        "generalAssessment": "O candidato apresenta um alinhamento técnico sólido e coerente com a vaga de Engenheiro de Software Sênior. O currículo demonstra proficiência clara nas tecnologias solicitadas, como TypeScript e React, além de uma trajetória consistente na construção de arquiteturas escaláveis. Não foram detectadas incoerências profissionais ou lacunas críticas que inviabilizem a candidatura para este nível de senioridade.",
+        "strengths": [
+          "Domínio técnico comprovado em TypeScript e ecossistema React/Next.js.",
+          "Experiência prática em arquiteturas escaláveis e estratégias de renderização otimizada.",
+          "Vivência em liderança técnica, um diferencial importante para posições sênior."
+        ],
+        "areasToImprove": [
+          "Detalhamento de exemplos específicos onde a metodologia STAR foi aplicada para resolver problemas complexos.",
+          "Expansão da experiência em desenvolvimento de APIs RESTful no lado do servidor para complementar o perfil focado em Front-end.",
+          "Quantificação de resultados de performance técnica, trazendo métricas concretas de impacto no sistema."
+        ],
+        "recommendation": "Incluir na seção de experiências profissionais exemplos específicos de resolução de problemas complexos utilizando a metodologia STAR.",
+        "identifiedVacancy": "Engenheiro de Software Sênior",
+        "identifiedCandidateRole": "Engenheiro de Software Sênior",
+        "convergentPoints": [
+          "Uso proficiente de TypeScript, conforme exigido pelos requisitos técnicos.",
+          "Foco explícito em arquiteturas escaláveis e de alta performance.",
+          "Experiência consolidada com ecossistema React e testes automatizados."
+        ],
+        "divergentPoints": [
+          "Falta de menção explícita à experiência profunda no desenvolvimento de APIs RESTful backend.",
+          "Ausência de exemplos narrativos claros de problemas técnicos complexos resolvidos através do método STAR."
+        ],
+        "competencies": {
+          "communication": 85,
+          "technical": 95,
+          "problemSolving": 80,
+          "experienceMatch": 90,
+          "focusResults": 75
+        }
+      },
+      "userId": "usr-d1a037a7a2a25369"
+    },
+    {
+      "id": "1782129976431",
+      "date": "2026-06-22T12:06:16.431Z",
+      "config": {
+        "apiKey": "",
+        "field": "Design",
+        "experienceLevel": "Júnior",
+        "language": "Português",
+        "cvText": "Nome: Lucas Lima\nCargo: Designer UI/UX Júnior\nResumo: Profissional focado na criação de interfaces elegantes, fáceis de usar e voltadas para o usuário final. Experiência de 1 ano em criação de wireframes, protótipos de alta fidelidade no Figma e realização de testes de usabilidade.\nHabilidades: Figma, Adobe XD, Pesquisa com Usuários (User Research), Design Systems, Prototipação Rápida.",
+        "cvFileName": "UI/UX Designer Júnior (Exemplo)",
+        "analysisMethod": "ATL (Triagem de Currículos)",
+        "jobRequirements": "Vaga: UI/UX Designer Júnior\nRequisitos:\n- Criação de wireframes, fluxos de usuários e protótipos em alta fidelidade no Figma\n- Domínio de Design Systems escaláveis e consistência visual\n- Condução de pesquisas qualitativas e testes de usabilidade com usuários de verdade\n- Foco em acessibilidade digital e design responsivo",
+        "onlyCvAnalysis": true,
+        "simulateRateLimit": false
+      },
+      "questions": [],
+      "answers": [],
+      "chatHistory": [],
+      "evaluation": {
+        "overallScore": 85,
+        "generalAssessment": "Lucas apresenta um perfil alinhado com a expectativa para uma vaga de nível Júnior, demonstrando domínio das ferramentas essenciais citadas no escopo, como o Figma. O currículo é direto e reflete as competências solicitadas, embora careça de detalhamento em métricas de resultados e exemplos práticos mais profundos de design systems escaláveis em projetos complexos.",
+        "strengths": [
+          "Experiência prática direta com ferramentas mandatórias como Figma.",
+          "Vivência comprovada em etapas fundamentais como wireframing e testes de usabilidade."
+        ],
+        "areasToImprove": [
+          "Falta de evidências concretas sobre o impacto de suas soluções nos resultados do negócio.",
+          "Ausência de detalhamento técnico sobre a arquitetura e escalabilidade de Design Systems desenvolvidos.",
+          "Necessidade de maior clareza sobre processos de acessibilidade digital implementados em projetos passados."
+        ],
+        "recommendation": "Incluir exemplos detalhados de estudos de caso onde a aplicação de acessibilidade e Design Systems gerou melhorias mensuráveis na experiência do usuário.",
+        "identifiedVacancy": "UI/UX Designer Júnior",
+        "identifiedCandidateRole": "Designer UI/UX Júnior",
+        "convergentPoints": [
+          "Proficiência na criação de wireframes e protótipos em alta fidelidade no Figma.",
+          "Experiência na condução de testes de usabilidade e pesquisa com usuários.",
+          "Alinhamento com o nível de senioridade exigido para a vaga."
+        ],
+        "divergentPoints": [
+          "Ausência de exemplos práticos sobre design responsivo aplicado.",
+          "Falta de menção a contribuições específicas em Design Systems escaláveis.",
+          "Carência de dados quantitativos ou métricas de sucesso em projetos anteriores."
+        ],
+        "competencies": {
+          "communication": 80,
+          "technical": 85,
+          "problemSolving": 75,
+          "experienceMatch": 90,
+          "focusResults": 60
+        }
+      },
+      "userId": "usr-d1a037a7a2a25369"
+    },
+    {
+      "id": "1782129331575",
+      "date": "2026-06-22T11:55:31.575Z",
+      "config": {
+        "apiKey": "",
+        "field": "Design",
+        "experienceLevel": "Júnior",
+        "language": "Português",
+        "cvText": "Nome: Lucas Lima\nCargo: Designer UI/UX Júnior\nResumo: Profissional focado na criação de interfaces elegantes, fáceis de usar e voltadas para o usuário final. Experiência de 1 ano em criação de wireframes, protótipos de alta fidelidade no Figma e realização de testes de usabilidade.\nHabilidades: Figma, Adobe XD, Pesquisa com Usuários (User Research), Design Systems, Prototipação Rápida.",
+        "cvFileName": "UI/UX Designer Júnior (Exemplo)",
+        "analysisMethod": "ATL (Triagem de Currículos)",
+        "jobRequirements": "Vaga: UI/UX Designer Júnior\nRequisitos:\n- Criação de wireframes, fluxos de usuários e protótipos em alta fidelidade no Figma\n- Domínio de Design Systems escaláveis e consistência visual\n- Condução de pesquisas qualitativas e testes de usabilidade com usuários de verdade\n- Foco em acessibilidade digital e design responsivo",
+        "onlyCvAnalysis": true,
+        "simulateRateLimit": false
+      },
+      "questions": [],
+      "answers": [],
+      "chatHistory": [],
+      "evaluation": {
+        "overallScore": 85,
+        "generalAssessment": "O candidato Lucas Lima apresenta um perfil alinhado com as expectativas técnicas de um nível Júnior para a vaga de UI/UX Designer. O currículo demonstra uma convergência clara entre as ferramentas utilizadas, especificamente o Figma, e as competências básicas exigidas na descrição da vaga. Embora demonstre conhecimento técnico, há espaço para aprofundar evidências sobre a escala dos sistemas de design e métricas de sucesso em testes de usabilidade.",
+        "strengths": [
+          "Domínio prático da ferramenta Figma para prototipagem de alta fidelidade.",
+          "Experiência declarada em processos de pesquisa com usuários e testes de usabilidade."
+        ],
+        "areasToImprove": [
+          "Detalhamento de como os Design Systems foram escalados em projetos anteriores.",
+          "Ênfase na aplicação prática de diretrizes de acessibilidade digital e design responsivo.",
+          "Quantificação de resultados obtidos após a implementação de melhorias de usabilidade."
+        ],
+        "recommendation": "Incluir exemplos concretos ou um portfólio que demonstre o uso de Design Systems em projetos de média complexidade.",
+        "identifiedVacancy": "UI/UX Designer Júnior",
+        "identifiedCandidateRole": "Designer UI/UX Júnior",
+        "convergentPoints": [
+          "Experiência prática com a criação de wireframes e protótipos em Figma.",
+          "Execução de testes de usabilidade e condução de pesquisa com usuários.",
+          "Alinhamento com as responsabilidades de nível júnior solicitadas na vaga."
+        ],
+        "divergentPoints": [
+          "Ausência de menção explícita sobre a criação ou manutenção de Design Systems escaláveis.",
+          "Falta de evidências sobre a implementação de padrões de acessibilidade digital (WCAG).",
+          "Ausência de exemplos sobre design responsivo em fluxos de usuários complexos."
+        ],
+        "competencies": {
+          "communication": 80,
+          "technical": 85,
+          "problemSolving": 75,
+          "experienceMatch": 90,
+          "focusResults": 70
+        }
+      },
+      "userId": "usr-d1a037a7a2a25369"
+    },
+    {
+      "id": "1782129273268",
+      "date": "2026-06-22T11:54:33.268Z",
+      "config": {
+        "apiKey": "",
+        "field": "Negócios",
+        "experienceLevel": "Pleno",
+        "language": "Português",
+        "cvText": "Nome: Beatriz Santos\nCargo: Product Manager\nResumo: 4 anos de experiência em gestão de produtos digitais (SaaS B2B). Liderança em descoberta de produto (product discovery), definição de objetivos (OKRs), mapeamento de histórias e priorização utilizando metodologias ágeis (Scrum/Kanban). Colaboração direta com engenharia e design.\nHabilidades: Product Discovery, Agile, OKRs, Firebase Analytics, SQL Básico, Growth Hacking, Priorização MoSCoW.",
+        "cvFileName": "Product Manager Pleno (Exemplo)",
+        "analysisMethod": "ATL (Triagem de Currículos)",
+        "jobRequirements": "Vaga: Product Manager Pleno\nRequisitos:\n- Gestão do ciclo de vida de produtos digitais, métricas e OKRs\n- Experiência em Product Discovery e validação de hipóteses com usuários\n- Excelente comunicação para facilitação de alinhamentos e tomadas de decisão\n- Priorização estratégica de backlogs e roadmap",
+        "onlyCvAnalysis": true,
+        "simulateRateLimit": false
+      },
+      "questions": [],
+      "answers": [],
+      "chatHistory": [],
+      "evaluation": {
+        "overallScore": 85,
+        "generalAssessment": "Beatriz apresenta um perfil coerente com a posição de Product Manager Pleno, com sólida experiência em SaaS B2B e alinhamento prático com metodologias de descoberta e métricas. O currículo demonstra maturidade na gestão do ciclo de vida do produto e na interface com áreas de engenharia e design, atendendo aos requisitos estratégicos da vaga. Não foram detectadas discrepâncias de senioridade, sendo o perfil plenamente apto para o nível solicitado.",
+        "strengths": [
+          "Experiência prática comprovada em Product Discovery e validação de hipóteses.",
+          "Domínio técnico de metodologias ágeis e definição de OKRs.",
+          "Histórico consistente de 4 anos em gestão de produtos digitais SaaS B2B."
+        ],
+        "areasToImprove": [
+          "Detalhamento quantitativo dos resultados alcançados com as métricas e OKRs implementados.",
+          "Evidência de casos específicos de gestão de stakeholders e facilitação de decisões difíceis.",
+          "Expansão das competências técnicas em análise de dados avançada para além do SQL básico."
+        ],
+        "recommendation": "Incluir exemplos quantificáveis de sucesso em métricas de negócio para reforçar o impacto das estratégias de produto.",
+        "identifiedVacancy": "Product Manager Pleno",
+        "identifiedCandidateRole": "Product Manager Pleno",
+        "convergentPoints": [
+          "Experiência direta em gestão do ciclo de vida de produtos digitais.",
+          "Vivência prática em Product Discovery e validação com usuários.",
+          "Competência demonstrada em priorização de backlogs via MoSCoW e Scrum."
+        ],
+        "divergentPoints": [
+          "Ausência de exemplos concretos de facilitação de alinhamentos e tomadas de decisão estratégicas.",
+          "Falta de menção detalhada sobre a gestão de roadmap em cenários de alta complexidade.",
+          "Lacuna em ferramentas avançadas de análise de dados exigidas pelo mercado atual."
+        ],
+        "competencies": {
+          "communication": 85,
+          "technical": 80,
+          "problemSolving": 80,
+          "experienceMatch": 90,
+          "focusResults": 75
+        }
+      },
+      "userId": "usr-d1a037a7a2a25369"
+    },
+    {
+      "id": "1782127783931",
+      "date": "2026-06-22T11:29:43.931Z",
+      "config": {
+        "apiKey": "",
+        "field": "Negócios",
+        "experienceLevel": "Pleno",
+        "language": "Português",
+        "cvText": "Nome: Beatriz Santos\nCargo: Product Manager\nResumo: 4 anos de experiência em gestão de produtos digitais (SaaS B2B). Liderança em descoberta de produto (product discovery), definição de objetivos (OKRs), mapeamento de histórias e priorização utilizando metodologias ágeis (Scrum/Kanban). Colaboração direta com engenharia e design.\nHabilidades: Product Discovery, Agile, OKRs, Firebase Analytics, SQL Básico, Growth Hacking, Priorização MoSCoW.",
+        "cvFileName": "Product Manager Pleno (Exemplo)",
+        "analysisMethod": "ATL (Triagem de Currículos)",
+        "jobRequirements": "Vaga: Product Manager Pleno\nRequisitos:\n- Gestão do ciclo de vida de produtos digitais, métricas e OKRs\n- Experiência em Product Discovery e validação de hipóteses com usuários\n- Excelente comunicação para facilitação de alinhamentos e tomadas de decisão\n- Priorização estratégica de backlogs e roadmap",
+        "onlyCvAnalysis": true,
+        "simulateRateLimit": false
+      },
+      "questions": [],
+      "answers": [],
+      "chatHistory": [],
+      "evaluation": {
+        "overallScore": 85,
+        "generalAssessment": "Beatriz Santos apresenta forte alinhamento com os requisitos para a vaga de Product Manager Pleno. Sua trajetória de 4 anos em SaaS B2B cobre os pilares essenciais de Discovery, gestão de OKRs e metodologias ágeis. O currículo demonstra coerência entre a senioridade pretendida e a experiência prática declarada, embora falte detalhamento sobre a magnitude do impacto estratégico quantificável nos projetos anteriores.",
+        "strengths": [
+          "Experiência prática comprovada em Product Discovery e validação de hipóteses",
+          "Domínio sólido de frameworks de priorização e definição de OKRs",
+          "Histórico consistente de atuação em ambiente SaaS B2B com colaboração cross-funcional"
+        ],
+        "areasToImprove": [
+          "Necessidade de detalhar resultados de negócio quantificáveis (impacto em métricas chave)",
+          "Falta de evidências sobre gestão de roadmaps de longo prazo",
+          "Ausência de exemplos concretos sobre facilitação de decisões em cenários de alta complexidade"
+        ],
+        "recommendation": "Incluir exemplos de métricas de sucesso (ex: aumento de retenção ou conversão) vinculadas às suas iniciativas de produto.",
+        "identifiedVacancy": "Product Manager Pleno",
+        "identifiedCandidateRole": "Product Manager Pleno",
+        "convergentPoints": [
+          "Alinhamento direto na gestão de ciclo de vida de produtos digitais",
+          "Experiência prática em Product Discovery e validação",
+          "Uso proficiente de OKRs para definição de objetivos",
+          "Vivência consolidada em metodologias ágeis como Scrum e Kanban"
+        ],
+        "divergentPoints": [
+          "Ausência de menção clara sobre a autonomia na criação de roadmaps estratégicos",
+          "Necessidade de maior clareza na capacidade de articulação entre stakeholders seniores",
+          "Falta de profundidade na análise de dados complexos além do SQL básico"
+        ],
+        "competencies": {
+          "communication": 80,
+          "technical": 85,
+          "problemSolving": 80,
+          "experienceMatch": 90,
+          "focusResults": 75
+        }
+      },
+      "userId": "usr-d1a037a7a2a25369"
+    },
+    {
+      "id": "1782127589862",
+      "date": "2026-06-22T11:26:29.862Z",
+      "config": {
+        "apiKey": "",
+        "field": "Design",
+        "experienceLevel": "Júnior",
+        "language": "Português",
+        "cvText": "Nome: Lucas Lima\nCargo: Designer UI/UX Júnior\nResumo: Profissional focado na criação de interfaces elegantes, fáceis de usar e voltadas para o usuário final. Experiência de 1 ano em criação de wireframes, protótipos de alta fidelidade no Figma e realização de testes de usabilidade.\nHabilidades: Figma, Adobe XD, Pesquisa com Usuários (User Research), Design Systems, Prototipação Rápida.",
+        "cvFileName": "UI/UX Designer Júnior (Exemplo)",
+        "analysisMethod": "ATL (Triagem de Currículos)",
+        "jobRequirements": "Vaga: UI/UX Designer Júnior\nRequisitos:\n- Criação de wireframes, fluxos de usuários e protótipos em alta fidelidade no Figma\n- Domínio de Design Systems escaláveis e consistência visual\n- Condução de pesquisas qualitativas e testes de usabilidade com usuários de verdade\n- Foco em acessibilidade digital e design responsivo",
+        "onlyCvAnalysis": true,
+        "simulateRateLimit": false
+      },
+      "questions": [],
+      "answers": [],
+      "chatHistory": [],
+      "evaluation": {
+        "overallScore": 85,
+        "generalAssessment": "O candidato apresenta uma trajetória alinhada aos requisitos fundamentais para a vaga de UI/UX Designer Júnior. O currículo demonstra uma aplicação prática coerente das ferramentas solicitadas e uma vivência direta com as atividades centrais do cargo. Embora a senioridade esteja compatível, o candidato precisará demonstrar maior profundidade em critérios específicos de acessibilidade digital e escalabilidade de sistemas em uma eventual entrevista.",
+        "strengths": [
+          "Experiência prática demonstrada em Figma e prototipagem de alta fidelidade.",
+          "Vivência comprovada em testes de usabilidade e pesquisa com usuários.",
+          "Foco objetivo na criação de interfaces centradas no usuário final."
+        ],
+        "areasToImprove": [
+          "Detalhar projetos específicos que envolvam Design Systems escaláveis.",
+          "Aprofundar conhecimentos teóricos e práticos em diretrizes de acessibilidade digital (WCAG).",
+          "Quantificar resultados ou impactos de negócio gerados através dos projetos mencionados."
+        ],
+        "recommendation": "Incluir no portfólio ou currículo um estudo de caso detalhado que demonstre a aplicação de um Design System escalável em um projeto real.",
+        "identifiedVacancy": "UI/UX Designer Júnior",
+        "identifiedCandidateRole": "Designer UI/UX Júnior",
+        "convergentPoints": [
+          "Domínio da ferramenta Figma solicitado pela vaga.",
+          "Prática em fluxo de usuários e wireframes consistente com a descrição do cargo.",
+          "Experiência em condução de testes de usabilidade alinhada às pesquisas qualitativas exigidas."
+        ],
+        "divergentPoints": [
+          "Ausência de exemplos concretos ou menção técnica sobre design responsivo no histórico.",
+          "Falta de evidências sobre o trabalho em Design Systems de larga escala.",
+          "Omissão de conhecimentos específicos sobre normas de acessibilidade digital."
+        ],
+        "competencies": {
+          "communication": 80,
+          "technical": 85,
+          "problemSolving": 75,
+          "experienceMatch": 90,
+          "focusResults": 70
+        }
+      },
+      "userId": "usr-d1a037a7a2a25369"
+    },
+    {
+      "id": "1782127133528",
+      "date": "2026-06-22T11:18:53.528Z",
+      "config": {
+        "apiKey": "",
+        "field": "Design",
+        "experienceLevel": "Júnior",
+        "language": "Português",
+        "cvText": "Nome: Lucas Lima\nCargo: Designer UI/UX Júnior\nResumo: Profissional focado na criação de interfaces elegantes, fáceis de usar e voltadas para o usuário final. Experiência de 1 ano em criação de wireframes, protótipos de alta fidelidade no Figma e realização de testes de usabilidade.\nHabilidades: Figma, Adobe XD, Pesquisa com Usuários (User Research), Design Systems, Prototipação Rápida.",
+        "cvFileName": "UI/UX Designer Júnior (Exemplo)",
+        "analysisMethod": "ATL (Triagem de Currículos)",
+        "jobRequirements": "Vaga: UI/UX Designer Júnior\nRequisitos:\n- Criação de wireframes, fluxos de usuários e protótipos em alta fidelidade no Figma\n- Domínio de Design Systems escaláveis e consistência visual\n- Condução de pesquisas qualitativas e testes de usabilidade com usuários de verdade\n- Foco em acessibilidade digital e design responsivo",
+        "onlyCvAnalysis": true,
+        "simulateRateLimit": false
+      },
+      "questions": [],
+      "answers": [],
+      "chatHistory": [],
+      "evaluation": {
+        "overallScore": 85,
+        "generalAssessment": "Lucas Lima apresenta um perfil com alta aderência à vaga de UI/UX Designer Júnior. O candidato demonstra domínio prático das ferramentas essenciais, como o Figma, e possui vivência em atividades centrais exigidas pela posição, como wireframing e testes de usabilidade. A trajetória alinha-se perfeitamente com o nível de senioridade buscado, embora precise detalhar melhor a aplicação de Design Systems em larga escala.",
+        "strengths": [
+          "Domínio prático de ferramentas fundamentais como Figma",
+          "Experiência comprovada em testes de usabilidade e prototipagem",
+          "Alinhamento direto entre a função atual e os requisitos técnicos da vaga"
+        ],
+        "areasToImprove": [
+          "Detalhamento sobre a implementação de Design Systems escaláveis",
+          "Evidência de projetos focados especificamente em acessibilidade digital",
+          "Quantificação dos resultados obtidos nos testes de usabilidade realizados"
+        ],
+        "recommendation": "Incluir exemplos de projetos que demonstrem a aplicação prática de diretrizes de acessibilidade e sistemas de design escaláveis.",
+        "identifiedVacancy": "UI/UX Designer Júnior",
+        "identifiedCandidateRole": "Designer UI/UX Júnior",
+        "convergentPoints": [
+          "Experiência direta com criação de wireframes e protótipos de alta fidelidade",
+          "Domínio da ferramenta Figma solicitado na vaga",
+          "Vivência prática na condução de pesquisas e testes com usuários",
+          "Foco profissional compatível com o escopo de design orientado ao usuário"
+        ],
+        "divergentPoints": [
+          "Ausência de menção explícita sobre a aplicação de padrões de acessibilidade digital",
+          "Falta de detalhes sobre a escala ou complexidade dos Design Systems desenvolvidos",
+          "Necessidade de maior clareza sobre processos de design responsivo"
+        ],
+        "competencies": {
+          "communication": 85,
+          "technical": 80,
+          "problemSolving": 75,
+          "experienceMatch": 90,
+          "focusResults": 70
+        }
+      },
+      "userId": "usr-d1a037a7a2a25369"
+    },
+    {
+      "id": "1782124245652",
+      "date": "2026-06-22T10:30:45.652Z",
+      "config": {
+        "apiKey": "",
+        "field": "Negócios",
+        "experienceLevel": "Pleno",
+        "language": "Português",
+        "cvText": "Nome: Beatriz Santos\nCargo: Product Manager\nResumo: 4 anos de experiência em gestão de produtos digitais (SaaS B2B). Liderança em descoberta de produto (product discovery), definição de objetivos (OKRs), mapeamento de histórias e priorização utilizando metodologias ágeis (Scrum/Kanban). Colaboração direta com engenharia e design.\nHabilidades: Product Discovery, Agile, OKRs, Firebase Analytics, SQL Básico, Growth Hacking, Priorização MoSCoW.",
+        "cvFileName": "Product Manager Pleno (Exemplo)",
+        "analysisMethod": "ATL (Triagem de Currículos)",
+        "jobRequirements": "Vaga: Product Manager Pleno\nRequisitos:\n- Gestão do ciclo de vida de produtos digitais, métricas e OKRs\n- Experiência em Product Discovery e validação de hipóteses com usuários\n- Excelente comunicação para facilitação de alinhamentos e tomadas de decisão\n- Priorização estratégica de backlogs e roadmap",
+        "onlyCvAnalysis": true,
+        "simulateRateLimit": false
+      },
+      "questions": [],
+      "answers": [],
+      "chatHistory": [],
+      "evaluation": {
+        "overallScore": 85,
+        "generalAssessment": "Beatriz apresenta um perfil alinhado aos requisitos técnicos e operacionais de um Product Manager Pleno. O histórico de quatro anos em SaaS B2B demonstra maturidade na gestão do ciclo de vida de produtos e competência prática em metodologias de descoberta e priorização de backlog. O currículo carece, contudo, de exemplos quantitativos mais robustos sobre o impacto direto dos OKRs nos resultados do negócio para consolidar o perfil como sénior.",
+        "strengths": [
+          "Experiência sólida e direta com Product Discovery e validação de hipóteses.",
+          "Domínio prático comprovado de frameworks de priorização e metodologias ágeis.",
+          "Vivência relevante no ciclo de vida de produtos digitais SaaS B2B."
+        ],
+        "areasToImprove": [
+          "Necessidade de detalhar conquistas com métricas quantitativas de impacto.",
+          "Lacuna na explanação sobre facilitação de decisões em ambientes de alta complexidade.",
+          "Ausência de exemplos concretos sobre gestão de conflitos no roadmap."
+        ],
+        "recommendation": "Incluir exemplos de cases onde a validação de hipóteses resultou em pivôs ou melhorias claras de métricas de negócio.",
+        "identifiedVacancy": "Product Manager Pleno",
+        "identifiedCandidateRole": "Product Manager Pleno",
+        "convergentPoints": [
+          "Experiência prática em Product Discovery e validação de hipóteses.",
+          "Conhecimento técnico em definição e acompanhamento de OKRs.",
+          "Vivência em gestão de backlog e priorização utilizando MoSCoW."
+        ],
+        "divergentPoints": [
+          "Ausência de exemplos detalhados de liderança em facilitação de alinhamentos estratégicos.",
+          "Falta de evidência clara sobre a condução de decisões críticas sob pressão."
+        ],
+        "competencies": {
+          "communication": 80,
+          "technical": 85,
+          "problemSolving": 80,
+          "experienceMatch": 90,
+          "focusResults": 75
+        }
+      },
+      "userId": "usr-f5f80e131e3f3df2"
+    },
+    {
+      "id": "1782123013469",
+      "date": "2026-06-22T10:10:28.088Z",
+      "config": {
+        "apiKey": "",
+        "field": "Design",
+        "experienceLevel": "Júnior",
+        "language": "Português",
+        "cvText": "Nome: Lucas Lima\nCargo: Designer UI/UX Júnior\nResumo: Profissional focado na criação de interfaces elegantes, fáceis de usar e voltadas para o usuário final. Experiência de 1 ano em criação de wireframes, protótipos de alta fidelidade no Figma e realização de testes de usabilidade.\nHabilidades: Figma, Adobe XD, Pesquisa com Usuários (User Research), Design Systems, Prototipação Rápida.",
+        "cvFileName": "UI/UX Designer Júnior (Exemplo)",
+        "analysisMethod": "ATL (Triagem de Currículos)",
+        "jobRequirements": "Vaga: UI/UX Designer Júnior\nRequisitos:\n- Criação de wireframes, fluxos de usuários e protótipos em alta fidelidade no Figma\n- Domínio de Design Systems escaláveis e consistência visual\n- Condução de pesquisas qualitativas e testes de usabilidade com usuários de verdade\n- Foco em acessibilidade digital e design responsivo",
+        "onlyCvAnalysis": false,
+        "simulateRateLimit": false
+      },
+      "questions": [
+        "Olá Lucas, iniciando nossa conversa, como você organiza a estrutura de componentes e variantes no Figma para garantir que um Design System se mantenha escalável conforme um projeto cresce?",
+        "Considerando o requisito de acessibilidade digital, quais são os critérios técnicos que você aplica no Figma para assegurar que um protótipo de alta fidelidade esteja em conformidade com as diretrizes WCAG?",
+        "Você mencionou um ano de experiência com testes de usabilidade; poderia descrever um cenário onde os resultados obtidos em um teste com usuários reais contradisseram diretamente a sua intuição inicial sobre a interface?",
+        "Em seus projetos anteriores, como você equilibrou a criação de wireframes com a necessidade de manter a consistência visual em um ambiente de entrega ágil?",
+        "Conte-me sobre uma situação em que você recebeu um feedback crítico de um desenvolvedor ou stakeholder sobre a viabilidade de um protótipo seu. Como você estruturou sua resposta e o que mudou no design final?",
+        "Descreva um momento em que precisou priorizar uma tarefa de design sob pressão de prazos apertados. Como você decidiu o que manter na versão final e o que deixar para uma iteração posterior?",
+        "Olhando para o seu primeiro ano como designer e para os requisitos técnicos desta vaga de UI/UX, qual é a competência técnica que você identifica como seu maior desafio atual e como está estruturando seu plano de aprendizado para superá-lo?"
+      ],
+      "answers": [],
+      "chatHistory": [
+        {
+          "id": "init-msg",
+          "role": "interviewer",
+          "text": "Olá Lucas, iniciando nossa conversa, como você organiza a estrutura de componentes e variantes no Figma para garantir que um Design System se mantenha escalável conforme um projeto cresce?",
+          "timestamp": "11:10"
+        }
+      ],
+      "evaluation": {
+        "overallScore": 21,
+        "generalAssessment": "Embora o currículo seja promissor para a vaga de UI/UX Designer Júnior, a ausência completa de resposta na entrevista técnica impede qualquer validação das competências declaradas, resultando em um diagnóstico de desclassificação imediata por falta de engajamento no processo seletivo.",
+        "strengths": [
+          "Experiência prática com Figma e prototipagem de alta fidelidade",
+          "Alinhamento teórico com as competências de UX Research e Design Systems"
+        ],
+        "areasToImprove": [
+          "Necessidade de responsabilidade e prontidão em processos seletivos profissionais",
+          "Capacidade de articular soluções técnicas durante interações diretas"
+        ],
+        "recommendation": "Reprovação no processo seletivo devido à falha crítica de participação na etapa de entrevista técnica.",
+        "identifiedVacancy": "UI/UX Designer Júnior",
+        "identifiedCandidateRole": "Designer UI/UX Júnior",
+        "convergentPoints": [
+          "Domínio declarado de ferramentas de prototipagem como Figma",
+          "Vivência prática mencionada em testes de usabilidade e wireframes"
+        ],
+        "divergentPoints": [
+          "Inexistência de resposta sobre estrutura de Design Systems escaláveis",
+          "Falha completa em demonstrar competências comportamentais ou técnicas durante a entrevista"
+        ],
+        "cvScore": 85,
+        "cvAssessment": "O currículo do candidato apresenta uma aderência muito positiva aos requisitos da vaga, demonstrando experiência prática condizente com o nível júnior, incluindo competências específicas em Figma e prototipagem. Não foram identificadas desconexões de área; o perfil é profissional e focado no domínio de UI/UX exigido.",
+        "interviewScore": 0,
+        "interviewAssessment": "O candidato não apresentou qualquer resposta à pergunta técnica formulada, impossibilitando a avaliação de sua capacidade de comunicação, profundidade técnica ou habilidade de resolução de problemas. O desempenho na entrevista é nulo devido à ausência de interação.",
+        "competencies": {
+          "communication": 0,
+          "technical": 20,
+          "problemSolving": 0,
+          "experienceMatch": 80,
+          "focusResults": 0
+        }
+      },
+      "userId": "usr-f5f80e131e3f3df2"
+    },
+    {
+      "id": "1782122799994",
+      "date": "2026-06-22T10:06:39.994Z",
+      "config": {
+        "apiKey": "",
+        "field": "Design",
+        "experienceLevel": "Júnior",
+        "language": "Português",
+        "cvText": "Nome: Lucas Lima\nCargo: Designer UI/UX Júnior\nResumo: Profissional focado na criação de interfaces elegantes, fáceis de usar e voltadas para o usuário final. Experiência de 1 ano em criação de wireframes, protótipos de alta fidelidade no Figma e realização de testes de usabilidade.\nHabilidades: Figma, Adobe XD, Pesquisa com Usuários (User Research), Design Systems, Prototipação Rápida.",
+        "cvFileName": "UI/UX Designer Júnior (Exemplo)",
+        "analysisMethod": "ATL (Triagem de Currículos)",
+        "jobRequirements": "Vaga: UI/UX Designer Júnior\nRequisitos:\n- Criação de wireframes, fluxos de usuários e protótipos em alta fidelidade no Figma\n- Domínio de Design Systems escaláveis e consistência visual\n- Condução de pesquisas qualitativas e testes de usabilidade com usuários de verdade\n- Foco em acessibilidade digital e design responsivo",
+        "onlyCvAnalysis": true,
+        "simulateRateLimit": false
+      },
+      "questions": [],
+      "answers": [],
+      "chatHistory": [],
+      "evaluation": {
+        "overallScore": 85,
+        "generalAssessment": "O candidato apresenta uma trajetória alinhada aos requisitos fundamentais para a posição de UI/UX Designer Júnior, demonstrando competência prática no uso de ferramentas essenciais como o Figma. Embora o histórico seja conciso, ele cobre os pilares principais da vaga, como prototipagem e testes de usabilidade, evidenciando uma aderência técnica sólida para o nível de entrada esperado na função.",
+        "strengths": [
+          "Experiência prática com a ferramenta Figma para wireframes e prototipagem de alta fidelidade.",
+          "Vivência comprovada em metodologias de pesquisa com usuários e testes de usabilidade.",
+          "Domínio técnico alinhado ao stack de design solicitado na vaga."
+        ],
+        "areasToImprove": [
+          "Detalhamento quantitativo sobre a escala dos projetos e complexidade dos sistemas de design desenvolvidos.",
+          "Evidência de atuação prática específica em acessibilidade digital e design responsivo.",
+          "Melhor estruturação do histórico de projetos para destacar entregas de alto impacto."
+        ],
+        "recommendation": "Incluir exemplos detalhados de estudos de caso focados em acessibilidade e escalabilidade de design systems no portfólio.",
+        "identifiedVacancy": "UI/UX Designer Júnior",
+        "identifiedCandidateRole": "Designer UI/UX Júnior",
+        "convergentPoints": [
+          "Experiência direta com prototipagem de alta fidelidade no Figma.",
+          "Prática comprovada em pesquisas de usuário e testes de usabilidade.",
+          "Alinhamento com as competências de design de interface e wireframing solicitadas."
+        ],
+        "divergentPoints": [
+          "Ausência de exemplos concretos sobre a implementação de acessibilidade digital.",
+          "Falta de menção detalhada sobre a escalabilidade de Design Systems em ambientes complexos.",
+          "Ausência de evidências de suporte a design responsivo em projetos anteriores."
+        ],
+        "competencies": {
+          "communication": 80,
+          "technical": 85,
+          "problemSolving": 75,
+          "experienceMatch": 90,
+          "focusResults": 70
+        }
+      },
+      "userId": "usr-f5f80e131e3f3df2"
+    },
+    {
+      "id": "1782121957318",
+      "date": "2026-06-22T09:52:46.806Z",
+      "config": {
+        "apiKey": "",
+        "field": "Negócios",
+        "experienceLevel": "Pleno",
+        "language": "Português",
+        "cvText": "Nome: Beatriz Santos\nCargo: Product Manager\nResumo: 4 anos de experiência em gestão de produtos digitais (SaaS B2B). Liderança em descoberta de produto (product discovery), definição de objetivos (OKRs), mapeamento de histórias e priorização utilizando metodologias ágeis (Scrum/Kanban). Colaboração direta com engenharia e design.\nHabilidades: Product Discovery, Agile, OKRs, Firebase Analytics, SQL Básico, Growth Hacking, Priorização MoSCoW.",
+        "cvFileName": "Product Manager Pleno (Exemplo)",
+        "analysisMethod": "ATL (Triagem de Currículos)",
+        "jobRequirements": "Vaga: Product Manager Pleno\nRequisitos:\n- Gestão do ciclo de vida de produtos digitais\n- Experiência em Product Discovery e validação de hipóteses com usuários\n- Excelente comunicação para facilitação de alinhamentos e tomadas de decisão\n- Priorização estratégica de backlogs e roadmap",
+        "onlyCvAnalysis": false,
+        "simulateRateLimit": false
+      },
+      "questions": [
+        "Considerando a sua experiência com SaaS B2B, como você estruturaria um processo de Product Discovery para validar uma hipótese de funcionalidade quando os dados quantitativos são ambíguos?",
+        "Na sua prática de priorização com o método MoSCoW, como você equilibra as demandas técnicas urgentes da engenharia com os objetivos estratégicos de longo prazo do roadmap?",
+        "Você mencionou a liderança em Product Discovery; pode detalhar uma situação em que os resultados de uma validação com usuários contradisseram a visão inicial da diretoria e como você geriu esse desalinhamento?",
+        "Como você adaptou a utilização de OKRs e o mapeamento de histórias em contextos onde a colaboração com design e engenharia enfrentou resistência ou falta de alinhamento?",
+        "Descreva um momento em que precisou tomar uma decisão difícil sobre o ciclo de vida de um produto que não estava performando conforme o esperado. Utilize a metodologia STAR para explicar a sua abordagem.",
+        "Como você lida com stakeholders que possuem visões divergentes sobre a priorização do backlog e qual estratégia utiliza para manter o foco nos resultados do negócio?",
+        "Olhando para a sua trajetória de quatro anos, como você avalia que a transição para esta vaga específica contribui para o seu plano de desenvolvimento profissional e quais lacunas técnicas você identifica que ainda precisa endereçar?"
+      ],
+      "answers": [],
+      "chatHistory": [
+        {
+          "id": "init-msg",
+          "role": "interviewer",
+          "text": "Considerando a sua experiência com SaaS B2B, como você estruturaria um processo de Product Discovery para validar uma hipótese de funcionalidade quando os dados quantitativos são ambíguos?",
+          "timestamp": "10:52"
+        }
+      ],
+      "evaluation": {
+        "overallScore": 21,
+        "generalAssessment": "Embora o perfil técnico no papel seja promissor e aderente, a ausência de resposta à provocação inicial inviabiliza a validação da senioridade exigida e demonstra uma falha crítica no processo seletivo.",
+        "strengths": [
+          "Experiência sólida e direta em gestão de produtos SaaS B2B",
+          "Domínio declarado de metodologias de Product Discovery e priorização"
+        ],
+        "areasToImprove": [
+          "Necessidade imediata de responder a questionamentos técnicos para demonstrar a senioridade alegada",
+          "Desenvolvimento de habilidade de articulação para processos seletivos"
+        ],
+        "recommendation": "Candidatura suspensa devido à falta de engajamento no processo; não seguir com as próximas etapas.",
+        "identifiedVacancy": "Product Manager Pleno",
+        "identifiedCandidateRole": "Product Manager",
+        "convergentPoints": [
+          "Quatro anos de vivência específica em gestão de ciclo de vida de produtos digitais",
+          "Domínio demonstrado de ferramentas de priorização como MoSCoW e OKRs"
+        ],
+        "divergentPoints": [
+          "Inexistência de evidências práticas na entrevista sobre a validação de hipóteses com usuários",
+          "Falha total na comunicação para facilitação de alinhamento e tomada de decisão durante a entrevista"
+        ],
+        "cvScore": 85,
+        "cvAssessment": "O currículo apresenta uma aderência alta aos requisitos da vaga, demonstrando experiência específica de 4 anos em gestão de produtos digitais no modelo SaaS B2B, o que se alinha perfeitamente ao escopo da posição de Product Manager Pleno.",
+        "interviewScore": 0,
+        "interviewAssessment": "O candidato não respondeu à pergunta técnica formulada, impossibilitando a avaliação de sua capacidade analítica, argumentativa e metodológica para resolução de cenários de incerteza em Product Discovery.",
+        "competencies": {
+          "communication": 0,
+          "technical": 80,
+          "problemSolving": 0,
+          "experienceMatch": 90,
+          "focusResults": 70
+        }
+      },
+      "userId": "usr-f5f80e131e3f3df2"
+    },
+    {
+      "id": "1782120808736",
+      "date": "2026-06-22T09:33:36.975Z",
+      "config": {
+        "apiKey": "",
+        "field": "Design",
+        "experienceLevel": "Júnior",
+        "language": "Português",
+        "cvText": "Nome: Lucas Lima\nCargo: Designer UI/UX Júnior\nResumo: Profissional focado na criação de interfaces elegantes, fáceis de usar e voltadas para o usuário final. Experiência de 1 ano em criação de wireframes, protótipos de alta fidelidade no Figma e realização de testes de usabilidade.\nHabilidades: Figma, Adobe XD, Pesquisa com Usuários (User Research), Design Systems, Prototipação Rápida.",
+        "cvFileName": "UI/UX Designer Júnior (Exemplo)",
+        "analysisMethod": "ATL (Triagem de Currículos)",
+        "jobRequirements": "Vaga: UI/UX Designer Júnior\nRequisitos:\n- Criação de wireframes, fluxos de usuários e protótipos em alta fidelidade no Figma\n- Domínio de Design Systems escaláveis e consistência visual\n- Condução de pesquisas qualitativas e testes de usabilidade com usuários de verdade\n- Foco em acessibilidade digital e design responsivo",
+        "onlyCvAnalysis": false,
+        "simulateRateLimit": false
+      },
+      "questions": [
+        "Olá, Lucas. Para começarmos, poderia descrever como você estrutura um Design System escalável no Figma para garantir consistência visual em projetos que envolvem múltiplos componentes?",
+        "Considerando que a acessibilidade é um requisito crítico aqui, quais critérios técnicos você aplica ao definir a hierarquia de tipografia e o contraste de cores em seus protótipos de alta fidelidade?",
+        "No seu currículo, você menciona um ano de experiência com testes de usabilidade; descreva um caso real em que os resultados obtidos com os usuários forçaram uma mudança significativa no fluxo de navegação que você havia desenhado inicialmente.",
+        "Você cita o uso de prototipação rápida no seu perfil; como você equilibra a necessidade de agilidade na entrega com a demanda por documentação detalhada para o time de desenvolvimento?",
+        "Descreva uma situação em que você precisou justificar uma escolha de design para um stakeholder ou desenvolvedor que discordava da sua solução, utilizando a metodologia STAR para estruturar o seu relato.",
+        "Imagine que um projeto está atrasado e você recebe um feedback negativo inesperado sobre a usabilidade de uma funcionalidade principal; como você prioriza a correção desse erro frente aos prazos de entrega?",
+        "Tendo em vista o seu nível júnior e as exigências desta vaga, como você planeja evoluir suas competências técnicas para passar de um executor de tarefas para alguém que toma decisões estratégicas baseadas em dados de pesquisa?"
+      ],
+      "answers": [],
+      "chatHistory": [
+        {
+          "id": "init-msg",
+          "role": "interviewer",
+          "text": "Olá, Lucas. Para começarmos, poderia descrever como você estrutura um Design System escalável no Figma para garantir consistência visual em projetos que envolvem múltiplos componentes?",
+          "timestamp": "10:33"
+        }
+      ],
+      "evaluation": {
+        "overallScore": 21,
+        "generalAssessment": "Embora o currículo demonstre aderência teórica, a ausência de resposta na etapa de entrevista inviabiliza o processo de seleção neste momento.",
+        "strengths": [
+          "Experiência prévia em ferramentas essenciais como Figma e Adobe XD.",
+          "Vivência prática na condução de testes de usabilidade, conforme solicitado nos requisitos."
+        ],
+        "areasToImprove": [
+          "Desenvolver capacidade de articulação técnica e resposta a questionamentos profissionais durante entrevistas.",
+          "Aprofundar o conhecimento teórico sobre Design Systems para além da ferramenta, focando em escalabilidade e consistência."
+        ],
+        "recommendation": "Não avançar para a próxima etapa devido à falta de participação na entrevista técnica.",
+        "identifiedVacancy": "UI/UX Designer Júnior",
+        "identifiedCandidateRole": "Designer UI/UX Júnior",
+        "convergentPoints": [
+          "Domínio de ferramentas de prototipação exigidas, especificamente Figma.",
+          "Experiência prática com pesquisa de usuários alinhada ao escopo da vaga."
+        ],
+        "divergentPoints": [
+          "Falha crítica de comunicação e engajamento na entrevista, impedindo a validação do conhecimento técnico.",
+          "Ausência de demonstração prática sobre a escalabilidade em Design Systems, ponto central da pergunta realizada."
+        ],
+        "cvScore": 85,
+        "cvAssessment": "O candidato apresenta um perfil compatível com os requisitos fundamentais para a vaga de UI/UX Designer Júnior, demonstrando alinhamento com as ferramentas e competências solicitadas, como Figma, prototipação e testes de usabilidade.",
+        "interviewScore": 0,
+        "interviewAssessment": "O candidato não respondeu à pergunta técnica inicial, resultando na impossibilidade de avaliar sua capacidade de argumentação, profundidade técnica ou habilidade de comunicação durante a entrevista.",
+        "competencies": {
+          "communication": 0,
+          "technical": 40,
+          "problemSolving": 0,
+          "experienceMatch": 80,
+          "focusResults": 0
+        }
+      },
+      "userId": "usr-f5f80e131e3f3df2"
+    },
+    {
+      "id": "1782120207879",
+      "date": "2026-06-22T09:23:41.146Z",
+      "config": {
+        "apiKey": "",
+        "field": "Design",
+        "experienceLevel": "Júnior",
+        "language": "Português",
+        "cvText": "Nome: Lucas Lima\nCargo: Designer UI/UX Júnior\nResumo: Profissional focado na criação de interfaces elegantes, fáceis de usar e voltadas para o usuário final. Experiência de 1 ano em criação de wireframes, protótipos de alta fidelidade no Figma e realização de testes de usabilidade.\nHabilidades: Figma, Adobe XD, Pesquisa com Usuários (User Research), Design Systems, Prototipação Rápida.",
+        "cvFileName": "UI/UX Designer Júnior (Exemplo)",
+        "analysisMethod": "ATL (Triagem de Currículos)",
+        "jobRequirements": "Vaga: UI/UX Designer Júnior\nRequisitos:\n- Criação de wireframes, fluxos de usuários e protótipos em alta fidelidade no Figma\n- Domínio de Design Systems escaláveis e consistência visual\n- Condução de pesquisas qualitativas e testes de usabilidade com usuários de verdade\n- Foco em acessibilidade digital e design responsivo",
+        "onlyCvAnalysis": false,
+        "simulateRateLimit": false
+      },
+      "questions": [
+        "Olá Lucas, iniciando nossa conversa, como você estrutura um Design System escalável no Figma para garantir a consistência visual em projetos com múltiplos fluxos de usuário?",
+        "Considerando que você mencionou experiência com acessibilidade, quais critérios específicos você aplica ao criar um design responsivo para assegurar que ele seja inclusivo?",
+        "Você destacou no currículo a realização de testes de usabilidade; poderia descrever um caso real onde os resultados desses testes exigiram que você alterasse significativamente um protótipo de alta fidelidade?",
+        "Com base no seu primeiro ano de experiência, como você equilibra a necessidade de agilidade na prototipagem com a necessidade de profundidade na pesquisa de usuário?",
+        "Conte-me sobre uma situação em que uma sugestão sua de design foi contestada por um desenvolvedor ou stakeholder. Como você estruturou sua argumentação para resolver esse conflito?",
+        "Ao enfrentar um prazo apertado, qual é o seu método para priorizar quais elementos de interface devem ser refinados primeiro?",
+        "Como você enxerga a evolução das competências que possui hoje em relação aos desafios técnicos exigidos por uma vaga de UI/UX Designer e quais lacunas técnicas pretende priorizar no próximo ano?"
+      ],
+      "answers": [],
+      "chatHistory": [
+        {
+          "id": "init-msg",
+          "role": "interviewer",
+          "text": "Olá Lucas, iniciando nossa conversa, como você estrutura um Design System escalável no Figma para garantir a consistência visual em projetos com múltiplos fluxos de usuário?",
+          "timestamp": "10:23"
+        }
+      ],
+      "evaluation": {
+        "overallScore": 21,
+        "generalAssessment": "Embora o currículo atenda aos requisitos básicos, a falha total em responder à primeira pergunta técnica anula o potencial de contratação imediata, revelando uma ausência severa de maturidade comportamental para um ambiente de trabalho que exige comunicação e entrega de resultados.",
+        "strengths": [
+          "Experiência prática com ferramentas essenciais como Figma e Adobe XD.",
+          "Vivência comprovada em testes de usabilidade e prototipação de alta fidelidade."
+        ],
+        "areasToImprove": [
+          "Desenvolvimento de competências de comunicação para responder a cenários técnicos complexos.",
+          "Necessidade de aprofundar o conhecimento teórico e prático sobre escalabilidade de Design Systems."
+        ],
+        "recommendation": "Candidato reprovado devido à incapacidade de engajamento no processo seletivo; não recomendo o prosseguimento nesta vaga.",
+        "identifiedVacancy": "UI/UX Designer Júnior",
+        "identifiedCandidateRole": "Designer UI/UX Júnior",
+        "convergentPoints": [
+          "Domínio técnico de ferramentas de prototipação (Figma).",
+          "Experiência prévia em condução de testes de usabilidade conforme requerido."
+        ],
+        "divergentPoints": [
+          "Incapacidade demonstrada em comunicar conceitos de Design Systems durante a entrevista.",
+          "Ausência de respostas que permitam validar a profundidade técnica exigida pela vaga."
+        ],
+        "cvScore": 85,
+        "cvAssessment": "O candidato apresenta um currículo alinhado com o nível Júnior, cobrindo os pilares fundamentais exigidos para a vaga, como prototipação em Figma e realização de testes de usabilidade. A experiência de um ano é compatível com a senioridade solicitada, embora falte evidência quantitativa sobre a complexidade dos Design Systems geridos anteriormente.",
+        "interviewScore": 0,
+        "interviewAssessment": "O candidato não respondeu à pergunta técnica inicial, o que inviabiliza a avaliação de sua capacidade de argumentação, profundidade técnica ou aplicação de metodologias em um ambiente profissional. O silêncio absoluto no processo seletivo impede a progressão na entrevista e demonstra uma lacuna crítica de prontidão e proatividade.",
+        "competencies": {
+          "communication": 0,
+          "technical": 40,
+          "problemSolving": 0,
+          "experienceMatch": 70,
+          "focusResults": 0
+        }
+      },
+      "userId": "usr-f5f80e131e3f3df2"
+    },
+    {
+      "id": "1782119633828",
+      "date": "2026-06-22T09:14:07.853Z",
+      "config": {
+        "apiKey": "",
+        "field": "Tech",
+        "experienceLevel": "Sênior",
+        "language": "Português",
+        "cvText": "Nome: João Silva\nCargo: Engenheiro de Software Sênior\nResumo: Especialista em desenvolvimento web Front-end com mais de 7 anos de experiência utilizando React, Redux, Context API e Zustand. Foco em arquiteturas escaláveis, renderização otimizada, SSR (Next.js) e liderança técnica de equipes multidisciplinares.\nHabilidades: React JS, Tailwind CSS, TypeScript, Zustand, Jest, React Testing Library, CI/CD, Next.js, Webpack, Vite.",
+        "cvFileName": "Desenvolvedor React Sênior (Exemplo)",
+        "analysisMethod": "ATL (Triagem de Currículos)",
+        "jobRequirements": "Vaga: Engenheiro de Software Sênior\nRequisitos:\n- Desenvolvimento de aplicações robustas e escaláveis\n- Forte conhecimento em TypeScript, React, APIs RESTful\n- Experiência prática na metodologia STAR e em otimização de performance técnica de sistemas\n- Boas práticas de arquitetura de software e testes",
+        "onlyCvAnalysis": false,
+        "simulateRateLimit": false
+      },
+      "questions": [
+        "Considerando a sua experiência com Next.js e renderização otimizada, como você abordaria a implementação de uma arquitetura de micro-frontends para garantir a escalabilidade sem comprometer a performance em uma aplicação de alta complexidade?",
+        "Ao trabalhar com TypeScript em projetos de grande escala, quais critérios você estabelece para decidir entre o uso de interfaces versus types, e como isso impacta a manutenibilidade do código a longo prazo?",
+        "No seu histórico como líder técnico, cite um momento específico em que foi necessário reestruturar um componente crítico devido a gargalos de performance; utilizando o método STAR, descreva como você conduziu essa otimização técnica.",
+        "Você mencionou vasta experiência com Zustand e Redux; como você justifica a escolha de uma ferramenta de gerenciamento de estado em detrimento da outra em cenários de alta concorrência de dados, considerando os requisitos de performance da nossa arquitetura?",
+        "Descreva uma situação em que a sua decisão técnica foi confrontada por outro membro da equipe ou por restrições de negócio; como você mediou o conflito e qual foi o resultado final utilizando a metodologia STAR?",
+        "Dada a nossa exigência de testes automatizados robustos, como você articula a cobertura de testes entre Jest e React Testing Library para garantir que a integração com APIs RESTful seja resiliente?",
+        "Observando sua trajetória focada predominantemente em Front-end, como você planeja transpor esse conhecimento para uma visão de arquitetura de software que engloba a integração eficiente com sistemas legados e requisitos de back-end escaláveis?"
+      ],
+      "answers": [],
+      "chatHistory": [
+        {
+          "id": "init-msg",
+          "role": "interviewer",
+          "text": "Considerando a sua experiência com Next.js e renderização otimizada, como você abordaria a implementação de uma arquitetura de micro-frontends para garantir a escalabilidade sem comprometer a performance em uma aplicação de alta complexidade?",
+          "timestamp": "10:13"
+        }
+      ],
+      "evaluation": {
+        "overallScore": 21,
+        "generalAssessment": "Embora o perfil técnico no papel seja compatível com a vaga, a ausência de resposta na etapa de entrevista inviabiliza o processo de recrutamento, impedindo a validação da competência prática.",
+        "strengths": [
+          "Experiência consolidada com React e TypeScript.",
+          "Conhecimento prático em ferramentas de teste e automação CI/CD."
+        ],
+        "areasToImprove": [
+          "Necessidade de engajamento ativo no processo seletivo para permitir a avaliação de competências comportamentais.",
+          "Demonstração de capacidade de comunicação técnica em cenários complexos."
+        ],
+        "recommendation": "Não prosseguir com a candidatura devido à falta de participação e resposta do candidato na fase de entrevista.",
+        "identifiedVacancy": "Engenheiro de Software Sênior",
+        "identifiedCandidateRole": "Engenheiro de Software Sênior",
+        "convergentPoints": [
+          "Domínio da stack tecnológica exigida (React, TypeScript, Next.js).",
+          "Experiência com arquiteturas escaláveis."
+        ],
+        "divergentPoints": [
+          "Inexistência de resposta na etapa de entrevista, impossibilitando a validação das soft skills.",
+          "Ausência de evidências sobre aplicação da metodologia STAR em projetos anteriores."
+        ],
+        "cvScore": 85,
+        "cvAssessment": "O candidato apresenta um currículo sólido, com 7 anos de experiência em desenvolvimento Front-end e competências técnicas que se alinham diretamente com a stack solicitada, como React, TypeScript e Next.js. A trajetória demonstra especialização técnica, embora falte detalhamento sobre a implementação de arquiteturas complexas ou grandes otimizações de performance em larga escala no resumo apresentado.",
+        "interviewScore": 0,
+        "interviewAssessment": "O candidato não apresentou resposta à única pergunta técnica formulada, resultando em uma avaliação de desempenho nula. A ausência de manifestação impede a verificação da capacidade de articulação, do uso da metodologia STAR ou da profundidade técnica necessária para um cargo de nível Sênior.",
+        "competencies": {
+          "communication": 0,
+          "technical": 80,
+          "problemSolving": 0,
+          "experienceMatch": 85,
+          "focusResults": 0
+        }
+      },
+      "userId": "usr-f5f80e131e3f3df2"
+    },
+    {
+      "id": "1782119597477",
+      "date": "2026-06-22T09:13:28.092Z",
+      "config": {
+        "apiKey": "",
+        "field": "Tech",
+        "experienceLevel": "Sênior",
+        "language": "Português",
+        "cvText": "Nome: João Silva\nCargo: Engenheiro de Software Sênior\nResumo: Especialista em desenvolvimento web Front-end com mais de 7 anos de experiência utilizando React, Redux, Context API e Zustand. Foco em arquiteturas escaláveis, renderização otimizada, SSR (Next.js) e liderança técnica de equipes multidisciplinares.\nHabilidades: React JS, Tailwind CSS, TypeScript, Zustand, Jest, React Testing Library, CI/CD, Next.js, Webpack, Vite.",
+        "cvFileName": "Desenvolvedor React Sênior (Exemplo)",
+        "analysisMethod": "ATL (Triagem de Currículos)",
+        "jobRequirements": "Vaga: Engenheiro de Software Sênior\nRequisitos:\n- Desenvolvimento de aplicações robustas e escaláveis\n- Forte conhecimento em TypeScript, React, APIs RESTful\n- Experiência prática na metodologia STAR e em otimização de performance técnica de sistemas\n- Boas práticas de arquitetura de software e testes",
+        "onlyCvAnalysis": false,
+        "simulateRateLimit": false
+      },
+      "questions": [
+        "Considerando a sua experiência com arquiteturas escaláveis, como você abordaria a otimização da renderização e a gestão de estado em uma aplicação React de alta complexidade que enfrenta gargalos críticos de performance em APIs RESTful?",
+        "Na sua prática como Engenheiro Sênior, de que maneira você aplica os princípios de Clean Architecture e testes automatizados para garantir a manutenibilidade do código em ciclos de CI/CD rigorosos?",
+        "Você menciona o uso extensivo de Zustand e Redux no seu currículo; poderia descrever um cenário onde a escolha técnica entre estas ferramentas impactou diretamente a escalabilidade do sistema que você liderou?",
+        "Tendo em vista que a nossa vaga exige uma forte atuação em arquitetura de backend, como você pretende equilibrar a sua sólida base de Front-end com a necessidade de desenvolver e manter serviços robustos em um ambiente de microsserviços?",
+        "Pode me relatar, utilizando a metodologia STAR, uma situação desafiadora onde você teve que liderar a resolução de um conflito técnico ou de priorização dentro de uma equipe multidisciplinar?",
+        "Descreva um momento em que uma decisão arquitetural sua não atingiu os resultados esperados de performance; qual foi a sua análise do problema e como você conduziu a correção do sistema?",
+        "Observando a sua trajetória fortemente focada no ecossistema React, como você articula a transição para desafios mais transversais exigidos por esta vaga sênior e de que forma isso se alinha aos seus objetivos de longo prazo?"
+      ],
+      "answers": [],
+      "chatHistory": [
+        {
+          "id": "init-msg",
+          "role": "interviewer",
+          "text": "Considerando a sua experiência com arquiteturas escaláveis, como você abordaria a otimização da renderização e a gestão de estado em uma aplicação React de alta complexidade que enfrenta gargalos críticos de performance em APIs RESTful?",
+          "timestamp": "10:13"
+        }
+      ],
+      "evaluation": {
+        "overallScore": 23,
+        "generalAssessment": "Embora o currículo seja altamente aderente ao perfil técnico exigido, a ausência de resposta na entrevista interrompe o processo de validação, tornando impossível atestar a senioridade na prática.",
+        "strengths": [
+          "Experiência profunda e comprovada com React e ecossistema associado (Zustand, Next.js).",
+          "Foco explícito em arquiteturas escaláveis e otimização de renderização."
+        ],
+        "areasToImprove": [
+          "Necessidade imediata de responder à indagação técnica para demonstrar capacidade de análise crítica.",
+          "Desenvolver habilidade de comunicação direta para articular soluções complexas sob pressão."
+        ],
+        "recommendation": "Aguardar a resposta à pergunta técnica para prosseguir com a avaliação de senioridade.",
+        "identifiedVacancy": "Engenheiro de Software Sênior",
+        "identifiedCandidateRole": "Engenheiro de Software Sênior",
+        "convergentPoints": [
+          "Domínio técnico em TypeScript e React, requisitos mandatórios da vaga.",
+          "Vivência prática com arquiteturas de front-end de alta complexidade."
+        ],
+        "divergentPoints": [
+          "Inexistência de evidências de resposta ou aplicação de metodologia STAR até o momento.",
+          "Lacuna de demonstração prática sobre otimização de APIs RESTful sob estresse."
+        ],
+        "cvScore": 90,
+        "cvAssessment": "O candidato apresenta um alinhamento sólido e muito positivo com os requisitos técnicos da vaga, demonstrando especialização clara em ecossistema React e TypeScript, que são pilares centrais da posição.",
+        "interviewScore": 0,
+        "interviewAssessment": "O candidato ainda não respondeu à pergunta técnica formulada, impossibilitando a avaliação de sua capacidade de argumentação, profundidade técnica ou aplicação da metodologia STAR no contexto de resolução de gargalos de performance.",
+        "competencies": {
+          "communication": 0,
+          "technical": 85,
+          "problemSolving": 0,
+          "experienceMatch": 90,
+          "focusResults": 0
+        }
+      },
+      "userId": "usr-f5f80e131e3f3df2"
+    },
+    {
+      "id": "1782117899730",
+      "date": "2026-06-22T08:45:30.922Z",
+      "config": {
+        "apiKey": "",
+        "field": "Tech",
+        "experienceLevel": "Sênior",
+        "language": "Português",
+        "cvText": "Nome: João Silva\nCargo: Engenheiro de Software Sênior\nResumo: Especialista em desenvolvimento web Front-end com mais de 7 anos de experiência utilizando React, Redux, Context API e Zustand. Foco em arquiteturas escaláveis, renderização otimizada, SSR (Next.js) e liderança técnica de equipes multidisciplinares.\nHabilidades: React JS, Tailwind CSS, TypeScript, Zustand, Jest, React Testing Library, CI/CD, Next.js, Webpack, Vite.",
+        "cvFileName": "Desenvolvedor React Sênior (Exemplo)",
+        "analysisMethod": "ATL (Triagem de Currículos)",
+        "jobRequirements": "Vaga: Engenheiro de Software Sênior\nRequisitos:\n- Desenvolvimento de aplicações robustas e escaláveis\n- Forte conhecimento em TypeScript, React, APIs RESTful\n- Experiência prática na metodologia STAR e em otimização de performance técnica de sistemas\n- Boas práticas de arquitetura de software e testes",
+        "onlyCvAnalysis": false,
+        "simulateRateLimit": false
+      },
+      "questions": [
+        "Considerando o seu foco consolidado em Front-end, como você estruturaria uma estratégia de comunicação eficiente entre uma aplicação React complexa e serviços de backend que não sigam padrões RESTful, garantindo resiliência e integridade de dados?",
+        "Ao tratar de otimização de performance técnica, descreva um cenário em que o uso do estado global, seja com Redux ou Zustand, degradou a performance da aplicação e qual foi a sua abordagem técnica para refatorar e mitigar esse gargalo.",
+        "No seu histórico, você menciona liderança técnica de equipes multidisciplinares; pode descrever, usando o método STAR, um desafio crítico de arquitetura onde houve conflito técnico entre a equipe de frontend e backend, e como você mediou essa tomada de decisão?",
+        "Analisando sua trajetória focada fortemente em Next.js e renderização otimizada, como você equilibra a manutenibilidade de uma base de código escalável com a necessidade de testes automatizados utilizando Jest e React Testing Library em um ciclo de entrega acelerado?",
+        "Descreva uma situação em que você teve que tomar uma decisão técnica impopular para garantir a longevidade do produto; qual foi o conflito, a ação tomada e o resultado mensurável obtido?",
+        "Observando que sua experiência é predominantemente orientada a interfaces, como você pretende aplicar suas competências de arquitetura de software para resolver problemas de escalabilidade em sistemas que exigem alta disponibilidade e integração server-side profunda?",
+        "Olhando para o futuro da sua carreira e considerando as exigências técnicas desta posição de Engenheiro de Software Sênior, de que maneira a transição para um escopo mais agnóstico de tecnologia, para além do ecossistema React, se alinha com o seu plano de desenvolvimento profissional?"
+      ],
+      "answers": [],
+      "chatHistory": [
+        {
+          "id": "init-msg",
+          "role": "interviewer",
+          "text": "Considerando o seu foco consolidado em Front-end, como você estruturaria uma estratégia de comunicação eficiente entre uma aplicação React complexa e serviços de backend que não sigam padrões RESTful, garantindo resiliência e integridade de dados?",
+          "timestamp": "09:44"
+        }
+      ],
+      "evaluation": {
+        "overallScore": 19,
+        "generalAssessment": "Apesar de possuir um currículo qualificado para posições de Front-end Sênior, o candidato foi desclassificado do processo seletivo devido ao silêncio absoluto e falta de entrega de resultados na etapa de entrevista técnica, impossibilitando a validação de suas competências.",
+        "strengths": [
+          "Experiência sólida e focada de 7 anos no desenvolvimento técnico com React, TypeScript e Next.js.",
+          "Domínio em boas práticas de testes unitários e de integração utilizando Jest e React Testing Library."
+        ],
+        "areasToImprove": [
+          "Comprometimento e participação ativa nas etapas avaliativas propostas, evitando o abandono de questões.",
+          "Ampliação do repertório técnico para além do ecossistema estrito de Front-end, visando arquitetura de sistemas e integrações de APIs complexas."
+        ],
+        "recommendation": "Desclassificar o candidato deste processo devido ao não comparecimento/ausência de resposta na entrevista, orientando-o a buscar vagas estritamente focadas em Especialista Front-end em futuras aplicações.",
+        "identifiedVacancy": "Engenheiro de Software Sênior",
+        "identifiedCandidateRole": "Engenheiro de Software Sênior - Especialista Front-end",
+        "convergentPoints": [
+          "Profundo conhecimento prático exigido e apresentado em TypeScript e React de alta performance.",
+          "Alinhamento com boas práticas de desenvolvimento moderno de software, arquitetura de componentes e testes."
+        ],
+        "divergentPoints": [
+          "A vaga exige sólida experiência em APIs RESTful e Engenharia de Software ampla, enquanto o currículo foca exclusivamente em desenvolvimento cliente (Front-end).",
+          "Inexistência de dados de desempenho prático ou argumentação na entrevista por ausência de resposta do candidato."
+        ],
+        "cvScore": 75,
+        "cvAssessment": "O currículo do candidato demonstra uma sólida e consistente bagagem técnica de 7 anos focada em desenvolvimento Web Front-end, com excelente domínio em React, TypeScript e ecossistema de gerenciamento de estado. Contudo, para a cadeira de Engenheiro de Software Sênior, que demanda um perfil mais generalista de engenharia e profunda atuação em APIs RESTful e arquitetura integrada, o currículo foca excessivamente na camada cliente, omitindo vivência direta com arquitetura de back-end.",
+        "interviewScore": 0,
+        "interviewAssessment": "O candidato não forneceu resposta à pergunta técnica formulada sobre resiliência na comunicação React/Back-end. A ausência de resposta inviabiliza qualquer análise de capacidade de comunicação, profundidade técnica, tomada de decisão arquitetural ou aplicação da metodologia STAR na resolução de problemas complexos sob pressão.",
+        "competencies": {
+          "communication": 0,
+          "technical": 30,
+          "problemSolving": 0,
+          "experienceMatch": 50,
+          "focusResults": 0
+        }
+      },
+      "userId": "usr-f5f80e131e3f3df2"
+    },
+    {
+      "id": "1782113826377",
+      "date": "2026-06-22T07:37:16.242Z",
+      "config": {
+        "apiKey": "",
+        "field": "Negócios",
+        "experienceLevel": "Pleno",
+        "language": "Português",
+        "cvText": "Nome: Beatriz Santos\nCargo: Product Manager\nResumo: 4 anos de experiência em gestão de produtos digitais (SaaS B2B). Liderança em descoberta de produto (product discovery), definição de objetivos (OKRs), mapeamento de histórias e priorização utilizando metodologias ágeis (Scrum/Kanban). Colaboração direta com engenharia e design.\nHabilidades: Product Discovery, Agile, OKRs, Firebase Analytics, SQL Básico, Growth Hacking, Priorização MoSCoW.",
+        "cvFileName": "Product Manager Pleno (Exemplo)",
+        "analysisMethod": "ATL (Triagem de Currículos)",
+        "jobRequirements": "Vaga: Product Manager Pleno\nRequisitos:\n- Gestão do ciclo de vida de produtos digitais, métricas e OKRs\n- Experiência em Product Discovery e validação de hipóteses com usuários\n- Excelente comunicação para facilitação de alinhamentos e tomadas de decisão\n- Priorização estratégica de backlogs e roadmap",
+        "onlyCvAnalysis": false,
+        "simulateRateLimit": false
+      },
+      "questions": [
+        "Considerando sua experiência com metodologias ágeis, como você estruturaria um processo de Product Discovery para validar uma hipótese de funcionalidade cujo custo de desenvolvimento é alto, garantindo que o impacto no negócio seja mensurável?",
+        "Na sua prática profissional como PM, como você utiliza o SQL e o Firebase Analytics para extrair insights que realmente fundamentem uma alteração na priorização do roadmap?",
+        "No seu histórico, você menciona a liderança em OKRs; conte-me sobre uma ocasião em que um objetivo trimestral não foi alcançado e qual foi a sua análise técnica sobre a falha no processo de priorização.",
+        "Dado que você possui 4 anos de experiência em SaaS B2B, como você equilibra as solicitações conflitantes de stakeholders internos com as necessidades levantadas pelos usuários durante o discovery?",
+        "Descreva uma situação real onde você precisou mediar um conflito de priorização entre a equipe de engenharia e as expectativas da diretoria; utilize o método STAR para explicar o desfecho.",
+        "Como você lida com a pressão de entregas quando um stakeholder chave contesta a decisão do roadmap que você fundamentou com base em dados?",
+        "Ao analisar a sua trajetória como PM, como você enxerga a transição dos seus desafios atuais para as demandas mais estratégicas de uma posição de nível Pleno, e por que esta vaga é o próximo passo coerente para o seu desenvolvimento?"
+      ],
+      "answers": [],
+      "chatHistory": [
+        {
+          "id": "init-msg",
+          "role": "interviewer",
+          "text": "Considerando sua experiência com metodologias ágeis, como você estruturaria um processo de Product Discovery para validar uma hipótese de funcionalidade cujo custo de desenvolvimento é alto, garantindo que o impacto no negócio seja mensurável?",
+          "timestamp": "08:37"
+        }
+      ],
+      "evaluation": {
+        "overallScore": 21,
+        "generalAssessment": "Embora o currículo demonstre um fit técnico promissor e alinhado aos requisitos da vaga, o candidato falhou em dar continuidade ao processo ao não responder à pergunta de sondagem técnica, resultando em uma inatividade que invalida a avaliação de competências comportamentais e operacionais.",
+        "strengths": [
+          "Experiência prática comprovada em Product Discovery e OKRs",
+          "Domínio de metodologias ágeis e priorização de roadmap"
+        ],
+        "areasToImprove": [
+          "Necessidade urgente de engajamento e clareza na comunicação durante a entrevista",
+          "Demonstração prática de conhecimento através da fundamentação de respostas"
+        ],
+        "recommendation": "Candidatura suspensa devido à inércia na entrevista; não recomendo o avanço para as próximas etapas sem uma justificativa plausível.",
+        "identifiedVacancy": "Product Manager Pleno",
+        "identifiedCandidateRole": "Product Manager",
+        "convergentPoints": [
+          "Alinhamento de 4 anos de experiência em produtos digitais com a senioridade Pleno",
+          "Conhecimento de ferramentas de descoberta e métricas como Firebase e OKRs"
+        ],
+        "divergentPoints": [
+          "Desconexão total entre a qualidade do currículo e o engajamento na entrevista",
+          "Falha crítica de comunicação ao não responder à pergunta inicial de caso técnico"
+        ],
+        "cvScore": 85,
+        "cvAssessment": "O currículo apresenta uma aderência alta e direta aos requisitos da vaga de Product Manager Pleno, com evidências claras de experiência em gestão de produtos B2B, metodologias ágeis e Product Discovery. A trajetória de 4 anos está alinhada ao nível de senioridade solicitado, demonstrando um perfil técnico sólido e consistente com o ciclo de vida de produtos digitais.",
+        "interviewScore": 0,
+        "interviewAssessment": "O candidato não apresentou qualquer resposta à pergunta técnica formulada, resultando em um silêncio absoluto. A ausência de resposta impede qualquer avaliação sobre a profundidade de seu raciocínio, capacidade de comunicação ou aplicação prática do método STAR em cenários de alta complexidade, inviabilizando a progressão no processo seletivo.",
+        "competencies": {
+          "communication": 0,
+          "technical": 75,
+          "problemSolving": 0,
+          "experienceMatch": 85,
+          "focusResults": 0
+        }
+      },
+      "userId": "usr-f5f80e131e3f3df2"
+    },
+    {
+      "id": "1782113783075",
+      "date": "2026-06-22T07:36:33.303Z",
+      "config": {
+        "apiKey": "",
+        "field": "Negócios",
+        "experienceLevel": "Pleno",
+        "language": "Português",
+        "cvText": "Nome: Beatriz Santos\nCargo: Product Manager\nResumo: 4 anos de experiência em gestão de produtos digitais (SaaS B2B). Liderança em descoberta de produto (product discovery), definição de objetivos (OKRs), mapeamento de histórias e priorização utilizando metodologias ágeis (Scrum/Kanban). Colaboração direta com engenharia e design.\nHabilidades: Product Discovery, Agile, OKRs, Firebase Analytics, SQL Básico, Growth Hacking, Priorização MoSCoW.",
+        "cvFileName": "Product Manager Pleno (Exemplo)",
+        "analysisMethod": "ATL (Triagem de Currículos)",
+        "jobRequirements": "Vaga: Product Manager Pleno\nRequisitos:\n- Gestão do ciclo de vida de produtos digitais, métricas e OKRs\n- Experiência em Product Discovery e validação de hipóteses com usuários\n- Excelente comunicação para facilitação de alinhamentos e tomadas de decisão\n- Priorização estratégica de backlogs e roadmap",
+        "onlyCvAnalysis": false,
+        "simulateRateLimit": false
+      },
+      "questions": [
+        "Considerando sua experiência com SaaS B2B, como você estruturaria um processo de Product Discovery para validar uma hipótese de funcionalidade quando os dados do Firebase Analytics são inconclusivos?",
+        "Na priorização de backlog utilizando a metodologia MoSCoW, como você equilibra tecnicamente os requisitos urgentes de stakeholders com as necessidades técnicas de longo prazo da engenharia?",
+        "Você mencionou a definição de OKRs em seus 4 anos de experiência; poderia descrever um caso específico onde um objetivo estratégico não foi atingido e quais foram as lições aprendidas na recalibração do ciclo seguinte?",
+        "Como você descreveria sua atuação prática na facilitação de alinhamentos quando surge um conflito direto entre a visão de design e a viabilidade técnica imposta pelo time de engenharia?",
+        "Descreva uma situação em que precisou tomar uma decisão crítica baseada em métricas de produto que contrariava a intuição da liderança; qual metodologia utilizou e qual foi o resultado?",
+        "Dada a transição para este nível pleno, como você lida com a pressão de entregas de roadmap quando a validação de hipóteses com usuários aponta para uma direção diferente da estratégia inicial da empresa?",
+        "Olhando para sua trajetória atual e os requisitos desta vaga de PM, de que maneira você planeja expandir sua competência em análise de dados para além do SQL básico para apoiar decisões estratégicas mais complexas?"
+      ],
+      "answers": [],
+      "chatHistory": [
+        {
+          "id": "init-msg",
+          "role": "interviewer",
+          "text": "Considerando sua experiência com SaaS B2B, como você estruturaria um processo de Product Discovery para validar uma hipótese de funcionalidade quando os dados do Firebase Analytics são inconclusivos?",
+          "timestamp": "08:36"
+        }
+      ],
+      "evaluation": {
+        "overallScore": 21,
+        "generalAssessment": "Embora o perfil curricular seja altamente promissor para a vaga, a ausência total de respostas na entrevista impossibilita qualquer recomendação de contratação neste momento, dada a falha crítica na etapa de validação comportamental e técnica.",
+        "strengths": [
+          "Experiência consolidada em produtos digitais SaaS B2B",
+          "Domínio comprovado de ferramentas de priorização como MoSCoW"
+        ],
+        "areasToImprove": [
+          "Necessidade urgente de responder aos questionamentos técnicos para viabilizar a avaliação",
+          "Desenvolvimento de prontidão na entrega de respostas estruturadas durante processos seletivos"
+        ],
+        "recommendation": "Candidata não aprovada para a vaga atual devido à inatividade durante a entrevista; encerramento do processo seletivo.",
+        "identifiedVacancy": "Product Manager Pleno",
+        "identifiedCandidateRole": "Product Manager",
+        "convergentPoints": [
+          "Alinhamento entre a experiência de 4 anos com o nível Pleno solicitado",
+          "Experiência prática com OKRs e Product Discovery exigidos pela vaga"
+        ],
+        "divergentPoints": [
+          "Omissão total de respostas na entrevista impossibilitou a confirmação da senioridade na prática",
+          "Ausência de demonstração da capacidade de comunicação facilitadora solicitada nos requisitos"
+        ],
+        "cvScore": 85,
+        "cvAssessment": "O currículo apresenta uma aderência muito sólida aos requisitos da vaga de Product Manager Pleno. Beatriz demonstra experiência condizente com a gestão de ciclo de vida de produtos SaaS B2B, com domínio de metodologias ágeis e ferramentas de priorização que se alinham perfeitamente às competências técnicas exigidas para a posição.",
+        "interviewScore": 0,
+        "interviewAssessment": "O processo de entrevista foi interrompido antes de qualquer resposta ser fornecida pelo candidato. Não houve a apresentação de argumentos, metodologias STAR ou qualquer evidência prática das competências técnicas que a candidata alega possuir, resultando em uma impossibilidade de avaliação da sua capacidade de articulação.",
+        "competencies": {
+          "communication": 0,
+          "technical": 40,
+          "problemSolving": 0,
+          "experienceMatch": 85,
+          "focusResults": 0
+        }
+      },
+      "userId": "usr-f5f80e131e3f3df2"
+    },
+    {
+      "id": "1782112075279",
+      "date": "2026-06-22T07:35:28.646Z",
+      "config": {
+        "apiKey": "",
+        "field": "Tech",
+        "experienceLevel": "Júnior",
+        "language": "Português",
+        "cvText": "E MA N U E LJ E F T ÉD I N G A N I J O Ã O  D e s e n v o l v e d o r F u l l - S t a c k  I m b o n d e i r o , C a z e n g a e m a n u e l d i n g a n i j o a o 1 3 @g m a i l . c o m 9 7 2 3 4 5 7 4 6 / 9 5 1 8 3 1 4 6 6  E X P E R I Ê N C I A  E D U C A Ç Ã O  T R E I N A ME N T O/ C U R S O  A P T I D Õ E SED O MÍ N I O S  R E S U MO  D e s e n v o l v e d o r F u l l - S t a c k e mc o n s t a n t e e v o l u ç ã o , c o mf o r m a ç ã o e mE n g e n h a r i a I n f o r m á t i c a e e x p e r i ê n c i a e mp r o j e t o s a c a d é m i c o s , p e s s o a i s e p r o f i s s i o n a i s . P o s s u o c o n h e c i m e n t o s e md e s e n v o l v i m e n t o f r o n t e n d e b a c k e n d , b a n c o d e d a d o s e i n t e g r a ç ã o d e s i s t e m a s . S o u p r o a t i v o , d e d i c a d o e m o t i v a d o a e n f r e n t a r n o v o s d e s a f i o s , b u s c a n d o  o p o r t u n i d a d e s p a r a a p l i c a r e e x p a n d i r m e u s c o n h e c i m e n t o s n o d e s e n v o l v i m e n t o d e s o f t w a r e .  H A B I L I D A D E S  A P T I D Õ E SEC O MP E T Ê N C I A SS O C I A I S  A P T I D Õ E SEC O MP E T Ê N C I A SD E O R G A N I Z A Ç Ã O  T r a b a l h o e mE q u i p e  L i d e r a n ç a   A d a p t a b i l i d a d e   I n o v a ç ã o  D e c i s ã o  S e n t i d o d e o r g a n i z a ç ã o  C a p a c i d a d e d e p l a n e a m e n t o e g e s t ã o d e e q u i p a s  G o s t o p o r u m a a p r e n d i z a g e mc o n t í n u a , d i v e r s i f i c a d a e a b r a n g e n t e  C o m u n i c a ç ã o  I D I O MA S  F o r m a d o r d o C u r s o d e I n f o r m á t i c a n a Ó p t i c a d o U t i l i z a d o r 2 0 2 3  P y t h o n E s s e n t i a l s 1 C I S C O  P o r t u g u ê s A v a n ç a d o  I n g l ê s I n t e r m e d i á r i o  G e t C o n n e c t e d C I S C O  F r o n t e n d : R e a c t J S , N e x t . j s , J a v a S c r i p t ( E S 6 + ) , H T ML 5 , C S S 3 , T a i l w i n d C S S , B o o t s t r a p . B a c k e n d : N o d e . j s , E x p r e s s . j s , S u p a b a s e , N e s t J S , P H P , P y t h o n . Mo b i l e : R e a c t N a t i v e . B a n c o d e D a d o s : My S Q L , S Q LS e r v e r , P o s t g r e S Q L . O R M: P r i s m a , D r i z z l e . F e r r a m e n t a s : G i t , G i t H u b , P o s t m a n , V SC o d e , My S Q L F e r r a m e n t a s : G i t , G i t H u b , P o s t m a n , V SC o d e , My S Q L Wo r k b e n c h , p g A d m i n . Me t o d o l o g i a s : D e s e n v o l v i m e n t o Á g i l , A P I s R E S T , D e s i g n P a t t e r n s , V e r s i o n a m e n t o d e C ó d i g o . P r o d u t i v i d a d e : Mi c r o s o f t O f f i c e ( E x c e l , Wo r d e P o w e r P o i n t ) .  P a r t i c i p a ç ã o n a F e i r a d a A N G O T I C N G I N A XC O MP A N Y 2 0 2 5  J o v e mE m p r e e n d e d o r d a A c a d e m i a B A I A C E S S Ó R I O S WA U 2 0 2 3  Mé d i o e mC i ê n c i a s F í s i c a s e B i o l ó g i c a s I n s t i t u t o B í b l i c o d e A n g o l a – I B A 2 0 1 9 – 2 0 2 1 • C a z e n g a , A n g o l a  E n g e n h a r i a I n f o r m á t i c a I n s t i t u t o N a c i o n a l d e T e c n o l o g i a d e I n f o r m a ç ã o e C o m u n i c a ç õ e s 2 0 2 1 – P r e s e n t e • L u a n d a , A n g o l a  P a r t i c i p a ç ã o n a I m e r s ã o D e v 9 ª E d i ç ã o d a A l u r a",
+        "cvFileName": "CV.pdf",
+        "analysisMethod": "ATL (Triagem de Currículos)",
+        "jobRequirements": "Vaga: Engenheiro de Software Júnior\nRequisitos:\n- Desenvolvimento de aplicações robustas e escaláveis\n- Forte conhecimento em TypeScript, React, APIs RESTful\n- Experiência prática na metodologia STAR e em otimização de performance técnica de sistemas\n- Boas práticas de arquitetura de software e testes",
+        "onlyCvAnalysis": false,
+        "simulateRateLimit": false
+      },
+      "questions": [
+        "Olá, Emanuel. Para iniciarmos, como você explicaria a importância de utilizar TypeScript em um projeto React de grande escala, considerando os desafios de manutenção de código que um desenvolvedor júnior pode enfrentar?",
+        "Ao desenvolver APIs RESTful, como você aborda o tratamento de erros e a segurança das rotas para garantir que a aplicação permaneça robusta e confiável?",
+        "Observei que você possui experiência com diversas tecnologias, incluindo React e Next.js. Poderia descrever um desafio técnico específico que enfrentou em um projeto acadêmico ou pessoal utilizando essas ferramentas, aplicando a metodologia STAR para detalhar a sua atuação?",
+        "Você mencionou experiência como formador em cursos de informática. De que maneira essa vivência contribuiu para o seu desenvolvimento de competências técnicas, considerando as demandas práticas de um ambiente de desenvolvimento de software?",
+        "Pode me relatar uma situação em que você teve que lidar com uma mudança repentina nos requisitos de um projeto e como você organizou as suas prioridades para entregar a funcionalidade dentro do prazo?",
+        "Considerando o ambiente de trabalho em equipa, descreva uma ocasião em que houve um desacordo técnico entre os membros do grupo. Como você agiu para resolver essa divergência mantendo o foco nos objetivos do projeto?",
+        "Sendo um profissional no início da sua trajetória em Engenharia Informática, como você planeja conciliar o seu leque atual de tecnologias com a necessidade de especialização técnica exigida por uma vaga focada em alta performance de sistemas?"
+      ],
+      "answers": [
+        "[O candidato pulou esta pergunta]",
+        "A sua tipagem ajuda na busca de erros",
+        "Atraves do try/catch, onde podemos filtrar os erros internos e externos e a aplicação continuar a funcionar mesmo esses erros acontecendo",
+        "Tem OAuth, JWT",
+        "[O candidato pulou esta pergunta]",
+        "Vai ser muito longo e escrever custa",
+        "[O candidato pulou esta pergunta]",
+        "Análise de como o usuario utiliza as aplicações",
+        "foi num projeto de agenda familiar offline para agora funcionar online, tive rever os requisitos quais são essenciais para o funcionamento online e que será compartilhado por outros membros? e depois para aqueles que podem ser offline criei uma função que sincroniza com o servidor quando estiver online. Assim pude entregar o app funcionar sem ter de refazer do zero e entregar no prazo.",
+        "pegou-se a ideia dos dois e realizou-se mais uma reunião com o cliente para maior compreensão, se a questão for de ferramentas analisamos o pró e contra, colocando os objetivos do projeto como juiz",
+        "[O candidato pulou esta pergunta]",
+        "Utilizando ferramentas devidas",
+        "Mudar a equipe",
+        "aí já não sei. Pode falar um pouco mais simples de entender?",
+        "deixarei a empresa ajudar",
+        "Não pensei nisso",
+        "[O candidato pulou esta pergunta]",
+        "estudando",
+        "redis, linux,",
+        "[O candidato pulou esta pergunta]",
+        "[O candidato pulou esta pergunta]"
+      ],
+      "chatHistory": [
+        {
+          "id": "init-msg",
+          "role": "interviewer",
+          "text": "Olá, Emanuel. Para iniciarmos, como você explicaria a importância de utilizar TypeScript em um projeto React de grande escala, considerando os desafios de manutenção de código que um desenvolvedor júnior pode enfrentar?",
+          "timestamp": "08:07"
+        },
+        {
+          "id": "cand-1782112134560",
+          "role": "candidate",
+          "text": "[O candidato pulou esta pergunta]",
+          "timestamp": "08:08"
+        },
+        {
+          "id": "int-1782112137701",
+          "role": "interviewer",
+          "text": "Compreendo. Considerando que não houve uma resposta à questão sobre TypeScript, gostaria que desenvolvesse brevemente esse ponto antes de seguirmos. Por que considera relevante o uso de TypeScript em projetos de grande escala na perspectiva de um desenvolvedor júnior?",
+          "timestamp": "08:08"
+        },
+        {
+          "id": "cand-1782112195836",
+          "role": "candidate",
+          "text": "A sua tipagem ajuda na busca de erros",
+          "timestamp": "08:09"
+        },
+        {
+          "id": "int-1782112199250",
+          "role": "interviewer",
+          "text": "A resposta é sucinta. Ao desenvolver APIs RESTful, como você aborda o tratamento de erros e a segurança das rotas para garantir que a aplicação permaneça robusta e confiável?",
+          "timestamp": "08:09"
+        },
+        {
+          "id": "cand-1782112331457",
+          "role": "candidate",
+          "text": "Atraves do try/catch, onde podemos filtrar os erros internos e externos e a aplicação continuar a funcionar mesmo esses erros acontecendo",
+          "timestamp": "08:12"
+        },
+        {
+          "id": "int-1782112334162",
+          "role": "interviewer",
+          "text": "O uso de blocos try/catch é uma abordagem fundamental para o tratamento de exceções. No entanto, para garantir a robustez e segurança que a vaga exige, poderia detalhar como estruturaria a resposta de erro para o cliente e quais mecanismos de autenticação ou autorização implementaria nas rotas?",
+          "timestamp": "08:12"
+        },
+        {
+          "id": "cand-1782112543369",
+          "role": "candidate",
+          "text": "Tem OAuth, JWT",
+          "timestamp": "08:15"
+        },
+        {
+          "id": "int-1782112548359",
+          "role": "interviewer",
+          "text": "A sua resposta foi bastante limitada quanto ao processo de implementação. Poderia detalhar como estrutura o tratamento de erros HTTP e de que forma valida a autorização e autenticação dentro do ciclo de vida dessas requisições?",
+          "timestamp": "08:15"
+        },
+        {
+          "id": "cand-1782112616104",
+          "role": "candidate",
+          "text": "[O candidato pulou esta pergunta]",
+          "timestamp": "08:16"
+        },
+        {
+          "id": "int-1782112621078",
+          "role": "interviewer",
+          "text": "Agradeço pela consideração. Em relação ao seu percurso, observei que possui experiência com React e Next.js; poderia descrever um desafio técnico específico que enfrentou em um projeto acadêmico ou pessoal utilizando estas ferramentas, aplicando a metodologia STAR para detalhar a sua atuação?",
+          "timestamp": "08:17"
+        },
+        {
+          "id": "cand-1782112673112",
+          "role": "candidate",
+          "text": "Vai ser muito longo e escrever custa",
+          "timestamp": "08:17"
+        },
+        {
+          "id": "int-1782112675873",
+          "role": "interviewer",
+          "text": "A capacidade de comunicar desafios técnicos é essencial para a função de engenheiro de software. Como a resposta anterior não permitiu avaliar o seu processo de resolução de problemas, solicito que apresente um exemplo concreto de um projeto utilizando React ou Next.js, estruturado em situação, tarefa, ação e resultado. Após este esclarecimento, prosseguiremos.",
+          "timestamp": "08:17"
+        },
+        {
+          "id": "cand-1782112706430",
+          "role": "candidate",
+          "text": "[O candidato pulou esta pergunta]",
+          "timestamp": "08:18"
+        },
+        {
+          "id": "int-1782112709529",
+          "role": "interviewer",
+          "text": "Compreendo a ausência de resposta à questão anterior. Passando ao próximo tópico, você mencionou experiência como formador em cursos de informática. De que maneira essa vivência contribuiu para o seu desenvolvimento de competências técnicas, considerando as demandas práticas de um ambiente de desenvolvimento de software?",
+          "timestamp": "08:18"
+        },
+        {
+          "id": "cand-1782112754323",
+          "role": "candidate",
+          "text": "Análise de como o usuario utiliza as aplicações",
+          "timestamp": "08:19"
+        },
+        {
+          "id": "int-1782112760708",
+          "role": "interviewer",
+          "text": "Compreendo. Essa experiência de observação do utilizador é um ponto de partida. Pode me relatar uma situação em que você teve que lidar com uma mudança repentina nos requisitos de um projeto e como você organizou as suas prioridades para entregar a funcionalidade dentro do prazo?",
+          "timestamp": "08:19"
+        },
+        {
+          "id": "cand-1782113064512",
+          "role": "candidate",
+          "text": "foi num projeto de agenda familiar offline para agora funcionar online, tive rever os requisitos quais são essenciais para o funcionamento online e que será compartilhado por outros membros? e depois para aqueles que podem ser offline criei uma função que sincroniza com o servidor quando estiver online. Assim pude entregar o app funcionar sem ter de refazer do zero e entregar no prazo.",
+          "timestamp": "08:24"
+        },
+        {
+          "id": "int-1782113070275",
+          "role": "interviewer",
+          "text": "Compreendi a sua abordagem na gestão dessa transição funcional. Considerando o ambiente de trabalho em equipa, descreva uma ocasião em que houve um desacordo técnico entre os membros do grupo. Como você agiu para resolver essa divergência mantendo o foco nos objetivos do projeto?",
+          "timestamp": "08:24"
+        },
+        {
+          "id": "cand-1782113253583",
+          "role": "candidate",
+          "text": "pegou-se a ideia dos dois e realizou-se mais uma reunião com o cliente para maior compreensão, se a questão for de ferramentas analisamos o pró e contra, colocando os objetivos do projeto como juiz",
+          "timestamp": "08:27"
+        },
+        {
+          "id": "int-1782113257668",
+          "role": "interviewer",
+          "text": "Compreendido como abordou a gestão de divergências. Sendo um profissional no início da sua trajetória em Engenharia Informática, como você planeja conciliar o seu leque atual de tecnologias com a necessidade de especialização técnica exigida por uma vaga focada em alta performance de sistemas?",
+          "timestamp": "08:27"
+        },
+        {
+          "id": "cand-1782113276558",
+          "role": "candidate",
+          "text": "[O candidato pulou esta pergunta]",
+          "timestamp": "08:27"
+        },
+        {
+          "id": "int-1782113281777",
+          "role": "interviewer",
+          "text": "Compreendo que não houve resposta à questão colocada. Por favor, detalhe como pretende abordar o desafio de otimização de performance técnica de sistemas, dado o seu nível de experiência atual.",
+          "timestamp": "08:28"
+        },
+        {
+          "id": "cand-1782113321299",
+          "role": "candidate",
+          "text": "Utilizando ferramentas devidas",
+          "timestamp": "08:28"
+        },
+        {
+          "id": "int-1782113324494",
+          "role": "interviewer",
+          "text": "A sua resposta foi demasiado concisa para que eu possa avaliar a sua metodologia de trabalho. Poderia detalhar concretamente quais são as ferramentas e estratégias técnicas que pretende adotar para garantir a escalabilidade e a otimização de performance em aplicações desenvolvidas com TypeScript e React?",
+          "timestamp": "08:28"
+        },
+        {
+          "id": "cand-1782113347789",
+          "role": "candidate",
+          "text": "Mudar a equipe",
+          "timestamp": "08:29"
+        },
+        {
+          "id": "int-1782113350765",
+          "role": "interviewer",
+          "text": "Compreendo a sua posição, contudo, a resposta apresentada não clarifica o seu método de desenvolvimento pessoal ou adaptação técnica. Pode detalhar de que forma a sua abordagem técnica e a aprendizagem contínua em tecnologias como TypeScript e React permitiriam atingir os requisitos de performance desta vaga?",
+          "timestamp": "08:29"
+        },
+        {
+          "id": "cand-1782113411273",
+          "role": "candidate",
+          "text": "aí já não sei. Pode falar um pouco mais simples de entender?",
+          "timestamp": "08:30"
+        },
+        {
+          "id": "int-1782113414144",
+          "role": "interviewer",
+          "text": "Compreendo que a terminologia possa parecer técnica demais neste momento inicial. Refraseando: como pretende equilibrar o aprendizado das tecnologias que já domina, como TypeScript ou React, com o desafio de aprender a estruturar sistemas de forma mais rápida e eficiente?",
+          "timestamp": "08:30"
+        },
+        {
+          "id": "cand-1782113496554",
+          "role": "candidate",
+          "text": "deixarei a empresa ajudar",
+          "timestamp": "08:31"
+        },
+        {
+          "id": "int-1782113499606",
+          "role": "interviewer",
+          "text": "Compreendo a sua posição, no entanto, é fundamental que um Engenheiro de Software demonstre autonomia na gestão do próprio desenvolvimento técnico. Poderia detalhar quais passos concretos, como estudo autodidata ou certificações, tem planeado para aprofundar os seus conhecimentos em otimização de performance e arquitetura de sistemas fora do ambiente laboral?",
+          "timestamp": "08:31"
+        },
+        {
+          "id": "cand-1782113543233",
+          "role": "candidate",
+          "text": "Não pensei nisso",
+          "timestamp": "08:32"
+        },
+        {
+          "id": "int-1782113546035",
+          "role": "interviewer",
+          "text": "Compreendo. Considerando que a função exige foco na otimização de sistemas, poderia detalhar como pretende estruturar o seu plano de aprendizagem para colmatar eventuais lacunas técnicas nesta área?",
+          "timestamp": "08:32"
+        },
+        {
+          "id": "cand-1782113563848",
+          "role": "candidate",
+          "text": "[O candidato pulou esta pergunta]",
+          "timestamp": "08:32"
+        },
+        {
+          "id": "int-1782113568509",
+          "role": "interviewer",
+          "text": "Compreendo que não apresentou uma resposta sobre a gestão da sua curva de aprendizagem. Como ainda não abordámos este ponto, peço que descreva, com base na sua experiência académica ou em projetos, como pretende estruturar o seu desenvolvimento técnico para atingir os padrões de alta performance exigidos.",
+          "timestamp": "08:32"
+        },
+        {
+          "id": "cand-1782113595119",
+          "role": "candidate",
+          "text": "estudando",
+          "timestamp": "08:33"
+        },
+        {
+          "id": "int-1782113598273",
+          "role": "interviewer",
+          "text": "A resposta fornecida é demasiado genérica para uma análise técnica adequada. Por favor, detalhe quais fontes de estudo, tecnologias específicas ou projetos práticos tem utilizado para aprofundar os seus conhecimentos em otimização de performance técnica e arquitetura de sistemas.",
+          "timestamp": "08:33"
+        },
+        {
+          "id": "cand-1782113647153",
+          "role": "candidate",
+          "text": "redis, linux,",
+          "timestamp": "08:34"
+        },
+        {
+          "id": "int-1782113652117",
+          "role": "interviewer",
+          "text": "Compreendo. No entanto, a sua resposta anterior foi demasiado concisa para que eu possa avaliar a sua capacidade de planeamento estratégico. Pode, por favor, detalhar como tenciona integrar o conhecimento em Redis e Linux para resolver desafios específicos de escalabilidade e performance numa aplicação web?",
+          "timestamp": "08:34"
+        },
+        {
+          "id": "cand-1782113676126",
+          "role": "candidate",
+          "text": "[O candidato pulou esta pergunta]",
+          "timestamp": "08:34"
+        },
+        {
+          "id": "int-1782113680326",
+          "role": "interviewer",
+          "text": "Compreendo a necessidade de clarificar o seu ponto de vista sobre este tema. Como planeia, especificamente no que toca à utilização de TypeScript e à implementação de APIs RESTful, garantir que o seu código mantém a escalabilidade e a performance exigidas num ambiente de alta carga?",
+          "timestamp": "08:34"
+        },
+        {
+          "id": "cand-1782113700023",
+          "role": "candidate",
+          "text": "[O candidato pulou esta pergunta]",
+          "timestamp": "08:35"
+        },
+        {
+          "id": "int-1782113704393",
+          "role": "interviewer",
+          "text": "Compreendo. Considerando a sua omissão, precisamos de retomar este ponto para avaliar a sua visão sobre o desenvolvimento de carreira. Como pretende equilibrar o domínio das tecnologias base, como React e TypeScript, com o aprofundamento técnico necessário para garantir a escalabilidade e performance em sistemas complexos?",
+          "timestamp": "08:35"
+        }
+      ],
+      "evaluation": {
+        "overallScore": 25,
+        "generalAssessment": "Candidato tecnicamente imaturo com graves lacunas de comunicação e postura profissional. A recusa sistemática em aprofundar temas técnicos impede a viabilidade da sua contratação para uma posição que exige proatividade e capacidade analítica.",
+        "strengths": [
+          "Experiência prática demonstrada em projeto pessoal com sincronização de dados offline/online.",
+          "Conhecimento teórico do ecossistema moderno de desenvolvimento (React, TypeScript, Node.js)."
+        ],
+        "areasToImprove": [
+          "Desenvolver maturidade na comunicação técnica, abandonando a postura evasiva perante perguntas complexas.",
+          "Aprender a aplicar metodologias de resolução de problemas, como a técnica STAR, em contextos de entrevista."
+        ],
+        "recommendation": "Não prosseguir com a candidatura. O perfil carece da resiliência e profundidade técnica necessárias para a vaga.",
+        "identifiedVacancy": "Engenheiro de Software Júnior",
+        "identifiedCandidateRole": "Desenvolvedor Full-Stack Júnior",
+        "convergentPoints": [
+          "Domínio teórico das linguagens e frameworks solicitadas na vaga.",
+          "Vivência básica em metodologias de desenvolvimento ágil e versionamento de código."
+        ],
+        "divergentPoints": [
+          "Incapacidade severa de comunicar desafios técnicos e aplicar conhecimentos em cenários de alta performance.",
+          "Postura de recusa ou esquiva em 7 das 22 interações, demonstrando falta de compromisso com o processo seletivo."
+        ],
+        "cvScore": 55,
+        "cvAssessment": "O candidato apresenta um perfil compatível com a vaga de Júnior, listando tecnologias relevantes como React e TypeScript, embora a estrutura do documento seja excessivamente sintética e dificulte a validação da profundidade real das competências declaradas.",
+        "interviewScore": 15,
+        "interviewAssessment": "O desempenho foi alarmante. O candidato recusou-se a responder 32% das questões, incluindo pontos críticos sobre arquitetura e escalabilidade, e apresentou respostas lacónicas ou superficiais, demonstrando falta de preparo comportamental e técnico para as exigências da função.",
+        "competencies": {
+          "communication": 10,
+          "technical": 30,
+          "problemSolving": 20,
+          "experienceMatch": 40,
+          "focusResults": 15
+        }
+      },
+      "userId": "usr-f5f80e131e3f3df2"
+    }
+  ],
+  "activeSessions": [
+    {
+      "token": "6cf39a67de028479924ddc7d1d6efeb71e3e57a2e12294535d3faf7dd0d7e3ea",
+      "userId": "usr-f5f80e131e3f3df2",
+      "expires": 1782716635319
+    },
+    {
+      "token": "363f97a19a1883165f2f15534f5ca50147468dec7fe28f4d26a9d3b8bff28485",
+      "userId": "usr-f5f80e131e3f3df2",
+      "expires": 1782729011608
+    },
+    {
+      "token": "b7a5cc5aff7a17c952e5e99a586e8ddede75a2a069183fbb4b45fa0b0b1ebd9e",
+      "userId": "usr-d1a037a7a2a25369",
+      "expires": 1782729107038
+    },
+    {
+      "token": "b86ec71c95d28d1bc9e3487a9c82f8ad41ca0e6b231da0f9e614a764a1d70abe",
+      "userId": "usr-439c59155368a7af",
+      "expires": 1782740868294
+    },
+    {
+      "token": "d2e8b2cd8d54fe8af0124a6d7d2a753bda0d89eb29fd10679e36aa46c680fdc5",
+      "userId": "usr-d1a037a7a2a25369",
+      "expires": 1782741111428
+    }
+  ]
+}

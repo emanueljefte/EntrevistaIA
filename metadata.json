@@ -1,0 +1,6 @@
+{
+  "name": "EntrevistaIA",
+  "description": "Simulações de entrevistas de emprego com inteligência artificial sênior. Receba perguntas personalizadas baseadas no seu currículo e obtenha relatórios de score, feedback construtivo e caminhos para melhoria.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
