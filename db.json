@@ -27,6 +27,60 @@
   ],
   "sessions": [
     {
+      "id": "1782142176192",
+      "date": "2026-06-22T15:29:36.192Z",
+      "config": {
+        "apiKey": "",
+        "field": "Design",
+        "experienceLevel": "Júnior",
+        "language": "Português",
+        "cvText": "Nome: Lucas Lima\nCargo: Designer UI/UX Júnior\nResumo: Profissional focado na criação de interfaces elegantes, fáceis de usar e voltadas para o usuário final. Experiência de 1 ano em criação de wireframes, protótipos de alta fidelidade no Figma e realização de testes de usabilidade.\nHabilidades: Figma, Adobe XD, Pesquisa com Usuários (User Research), Design Systems, Prototipação Rápida.",
+        "cvFileName": "UI/UX Designer Júnior (Exemplo)",
+        "analysisMethod": "ATL (Triagem de Currículos)",
+        "jobRequirements": "Vaga: UI/UX Designer Júnior\nRequisitos:\n- Criação de wireframes, fluxos de usuários e protótipos em alta fidelidade no Figma\n- Domínio de Design Systems escaláveis e consistência visual\n- Condução de pesquisas qualitativas e testes de usabilidade com usuários de verdade\n- Foco em acessibilidade digital e design responsivo",
+        "onlyCvAnalysis": true,
+        "simulateRateLimit": false
+      },
+      "questions": [],
+      "answers": [],
+      "chatHistory": [],
+      "evaluation": {
+        "overallScore": 85,
+        "generalAssessment": "O candidato Lucas Lima demonstra um alinhamento satisfatório com os requisitos da vaga de UI/UX Designer Júnior. O currículo apresenta as competências técnicas fundamentais, como Figma e prototipação, e vivência prática em testes de usabilidade, o que converge com as necessidades operacionais descritas para a posição. A trajetória de um ano é coerente com o nível júnior esperado, embora a profundidade da aplicação de Design Systems escaláveis precise ser melhor validada na entrevista técnica.",
+        "strengths": [
+          "Domínio prático da ferramenta Figma para criação de protótipos de alta fidelidade",
+          "Experiência comprovada em realização de testes de usabilidade",
+          "Foco consistente na experiência do usuário e criação de fluxos"
+        ],
+        "areasToImprove": [
+          "Detalhamento da metodologia aplicada em Design Systems escaláveis",
+          "Evidência de projetos com foco explícito em acessibilidade digital (WCAG)",
+          "Quantificação dos resultados obtidos nos testes de usabilidade realizados"
+        ],
+        "recommendation": "Incluir exemplos de projetos que demonstrem a implementação de padrões de acessibilidade e o uso de componentes reutilizáveis em Design Systems.",
+        "identifiedVacancy": "UI/UX Designer Júnior",
+        "identifiedCandidateRole": "Designer UI/UX Júnior",
+        "convergentPoints": [
+          "Experiência prática com wireframes e prototipagem de alta fidelidade",
+          "Domínio da ferramenta Figma exigida como core do trabalho",
+          "Vivência em pesquisa com usuários e testes de usabilidade"
+        ],
+        "divergentPoints": [
+          "Ausência de menção direta a padrões de acessibilidade digital",
+          "Falta de evidências concretas sobre a complexidade dos Design Systems desenvolvidos",
+          "Ausência de exemplos de design responsivo documentados"
+        ],
+        "competencies": {
+          "communication": 80,
+          "technical": 85,
+          "problemSolving": 75,
+          "experienceMatch": 90,
+          "focusResults": 70
+        }
+      },
+      "userId": "usr-d1a037a7a2a25369"
+    },
+    {
       "id": "1782138093898",
       "date": "2026-06-22T14:21:33.898Z",
       "config": {

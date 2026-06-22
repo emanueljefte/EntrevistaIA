@@ -10,6 +10,8 @@ import {
   ShieldAlert,
 } from "lucide-react";
 
+import interviewHeroCover from "../assets/images/interview_hero_cover_1781312795819.jpg";
+
 interface HomePageProps {
   onNavigate: (tab: string) => void;
   isGuest: boolean;
@@ -85,7 +87,7 @@ export default function HomePage({ onNavigate, isGuest, username, userRole = "ca
             <div className="relative aspect-video lg:aspect-[4/3] rounded-2xl overflow-hidden shadow-2xl border border-slate-800 group bg-slate-950">
               <div className="absolute inset-0 bg-indigo-900/5 mix-blend-multiply transition-colors group-hover:bg-transparent duration-300 z-10"></div>
               <img
-                src="/src/assets/images/interview_hero_cover_1781312795819.jpg"
+                src={interviewHeroCover}
                 alt="Ambiente moderno e acolhedor de entrevista corporativa"
                 className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-[1.03]"
                 referrerPolicy="no-referrer"
