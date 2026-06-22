@@ -27,6 +27,75 @@
   ],
   "sessions": [
     {
+      "id": "1782144518397",
+      "date": "2026-06-22T16:08:48.450Z",
+      "config": {
+        "apiKey": "",
+        "field": "Tech",
+        "experienceLevel": "Sênior",
+        "language": "Português",
+        "cvText": "Nome: João Silva\nCargo: Engenheiro de Software Sênior\nResumo: Especialista em desenvolvimento web Front-end com mais de 7 anos de experiência utilizando React, Redux, Context API e Zustand. Foco em arquiteturas escaláveis, renderização otimizada, SSR (Next.js) e liderança técnica de equipes multidisciplinares.\nHabilidades: React JS, Tailwind CSS, TypeScript, Zustand, Jest, React Testing Library, CI/CD, Next.js, Webpack, Vite.",
+        "cvFileName": "Desenvolvedor React Sênior (Exemplo)",
+        "analysisMethod": "ATL (Triagem de Currículos)",
+        "jobRequirements": "Vaga: Engenheiro de Software Sênior\nRequisitos:\n- Desenvolvimento de aplicações robustas e escaláveis\n- Forte conhecimento em TypeScript, React, APIs RESTful\n- Experiência prática na metodologia STAR e em otimização de performance técnica de sistemas\n- Boas práticas de arquitetura de software e testes",
+        "onlyCvAnalysis": false,
+        "simulateRateLimit": false
+      },
+      "questions": [
+        "Considerando a sua experiência em arquiteturas escaláveis, como você abordaria a otimização da renderização e a gestão de estado em uma aplicação React de larga escala para garantir que a performance não sofra degradação à medida que a complexidade do sistema aumenta?",
+        "Ao trabalhar com APIs RESTful em ambientes de alta demanda, que critérios específicos de design de contrato e estratégia de cache você prioriza para garantir a resiliência e a eficiência na comunicação entre o front-end e os microsserviços?",
+        "Você mencionou uma liderança técnica sólida com 7 anos de experiência; poderia detalhar uma situação específica, utilizando a metodologia STAR, em que teve de guiar a equipe na resolução de uma falha crítica de performance em um sistema em produção?",
+        "Observo que seu histórico é profundamente focado em front-end. Como você pretende aplicar seus conhecimentos de arquitetura para garantir que a integração e o consumo de APIs no back-end, essenciais para a vaga, sigam as melhores práticas que você defende?",
+        "Descreva uma situação em que a aplicação de testes automatizados com Jest ou React Testing Library foi determinante para evitar um regresso crítico em um novo deploy; qual foi a sua tomada de decisão perante o conflito?",
+        "Em cenários onde a equipe técnica possui visões divergentes sobre a adoção de novas tecnologias ou padrões de arquitetura, como você, na qualidade de sênior, media o consenso para garantir o alinhamento com os requisitos de negócio?",
+        "Olhando para o seu plano de carreira e o nível de senioridade que esta vaga exige, como você avalia o equilíbrio entre a sua especialização técnica atual e a necessidade de se aprofundar em conceitos de infraestrutura e back-end necessários para esta posição?"
+      ],
+      "answers": [],
+      "chatHistory": [
+        {
+          "id": "init-msg",
+          "role": "interviewer",
+          "text": "Considerando a sua experiência em arquiteturas escaláveis, como você abordaria a otimização da renderização e a gestão de estado em uma aplicação React de larga escala para garantir que a performance não sofra degradação à medida que a complexidade do sistema aumenta?",
+          "timestamp": "17:08"
+        }
+      ],
+      "evaluation": {
+        "overallScore": 23,
+        "generalAssessment": "Embora o perfil técnico no currículo seja altamente compatível com a vaga, a ausência de interação e resposta na entrevista impede qualquer progresso no processo seletivo, indicando uma falha crítica de engajamento.",
+        "strengths": [
+          "Domínio técnico demonstrado no currículo em tecnologias core como React e TypeScript.",
+          "Experiência prévia em arquiteturas de alta complexidade e SSR."
+        ],
+        "areasToImprove": [
+          "Necessidade imediata de responder aos questionamentos técnicos para viabilizar a avaliação comportamental e de raciocínio.",
+          "Demonstrar proatividade na comunicação, essencial para posições de liderança técnica."
+        ],
+        "recommendation": "Candidato desclassificado nesta etapa devido à falta de participação na entrevista técnica.",
+        "identifiedVacancy": "Engenheiro de Software Sênior",
+        "identifiedCandidateRole": "Engenheiro de Software Sênior",
+        "convergentPoints": [
+          "Alinhamento pleno entre as tecnologias listadas no CV e os requisitos de stack da vaga.",
+          "Senioridade de 7 anos compatível com a expectativa de mercado para o nível sênior."
+        ],
+        "divergentPoints": [
+          "Ausência total de resposta durante a entrevista, tornando impossível validar a prática de otimização de sistemas.",
+          "Falha na comunicação que inviabiliza a avaliação de soft skills indispensáveis para o papel."
+        ],
+        "cvScore": 90,
+        "cvAssessment": "O currículo demonstra forte aderência aos requisitos técnicos da vaga, apresentando domínio em todo o ecossistema necessário como React, TypeScript e Next.js. O perfil de 7 anos de experiência com foco em arquiteturas escaláveis alinha-se perfeitamente com as expectativas para uma posição de Engenheiro de Software Sênior.",
+        "interviewScore": 0,
+        "interviewAssessment": "O candidato não apresentou resposta à única questão técnica formulada, impossibilitando a avaliação da sua capacidade de estruturação de pensamento sob o método STAR ou a profundidade da sua argumentação técnica em cenários de alta complexidade.",
+        "competencies": {
+          "communication": 0,
+          "technical": 85,
+          "problemSolving": 0,
+          "experienceMatch": 90,
+          "focusResults": 0
+        }
+      },
+      "userId": "usr-d1a037a7a2a25369"
+    },
+    {
       "id": "1782142176192",
       "date": "2026-06-22T15:29:36.192Z",
       "config": {
